@@ -1,0 +1,2000 @@
+123456	10-12-2004	Oliveira
+3308	14-4-1933	Seixal
+10060	15-3-2008	Valbom
+6516	23-8-1978	Tavira
+17439	12-4-1990	Leiria
+7757	1-3-2011	Alcacer do Sal
+17305	14-5-2000	Barreiro
+10457	13-9-1989	Gandra
+15774	1-8-1982	Praia da Vitoria
+5831	9-2-2003	Oliveira de Azemeis
+10438	4-7-1944	Vila Real
+13732	18-3-1988	Abrantes
+5786	13-11-2012	Leiria
+15028	21-7-1987	Odivelas
+3853	1-10-1986	Costa da Caparica
+3108	10-9-1966	Tondela
+11661	7-12-1931	Vila Nova de Famalicao
+96	13-3-2019	Vila Real de Santo Antonio
+7173	26-2-1930	Viseu
+2701	11-5-2006	Alcacer do Sal
+16354	22-8-1982	Sao Pedro do Sul
+8217	4-3-1973	Torres Novas
+16800	14-3-1991	Ribeira Grande
+2102	28-7-1997	Anadia
+4966	3-4-1976	Vendas Novas
+380	19-6-1944	Lagos
+19168	30-7-1985	Vila Real
+6933	10-2-1954	Gandra
+9869	24-5-1983	Miranda do Douro / Miranda de l Douro
+275	20-3-2007	Castelo Branco
+7288	30-3-1994	Lixa
+2551	27-1-2006	Alverca do Ribatejo
+12579	11-8-1935	Sabugal
+8062	15-10-1936	Barcelos
+605	16-9-1979	Pinhel
+11634	11-8-1959	Santa Cruz
+10061	22-6-1970	Torres Novas
+15593	4-7-2004	Reguengos de Monsaraz
+12893	21-8-1967	Ribeira Grande
+10690	1-11-1985	Guimaraes
+9444	4-10-1945	Seixal
+7883	17-10-2018	Trancoso
+18479	3-3-1994	Montemor-o-Novo
+7841	13-1-2020	Sao Mamede de Infesta
+11329	2-2-1958	Santa Cruz
+8021	2-5-1966	Sines
+6168	25-9-1999	Pombal
+7790	24-12-1941	Vila Real de Santo Antonio
+4874	9-9-1987	Entroncamento
+19430	28-4-2004	Freamunde
+14135	23-7-1941	Vila do Conde
+11550	15-9-1983	Samora Correia
+18905	1-9-2007	Anadia
+18408	3-12-1958	Espinho
+15247	7-2-1968	Ribeira Grande
+4348	26-7-1962	Alverca do Ribatejo
+5308	28-3-1987	Sao Joao da Madeira
+3849	1-1-1998	Horta
+6209	30-10-2019	Peniche
+16340	12-9-2015	Tarouca
+15459	22-5-1971	Tavira
+747	11-12-1934	Torres Novas
+14574	30-5-2000	Barreiro
+1598	23-6-1993	Estarreja
+1189	24-12-2018	Canico
+1498	20-1-1962	Odivelas
+12727	20-11-1964	Setubal
+17373	19-11-1984	Oliveira de Azemeis
+4148	23-9-1951	Mirandela
+12460	26-4-1947	Ponte de Sor
+18144	18-5-1970	Sines
+15825	18-11-1954	Amora
+5412	9-8-1941	Penafiel
+6934	18-9-2000	Lourosa
+719	22-8-1963	Valongo
+17559	6-5-1980	Mirandela
+15913	17-2-1949	Tavira
+18547	3-4-1980	Seixal
+7425	19-9-1947	Alcacer do Sal
+2625	30-11-2013	Ponte de Sor
+11066	21-4-2000	Portalegre
+11907	19-9-1950	Gandra
+2969	5-10-1986	Meda
+4704	16-11-1964	Maia
+19452	27-1-1998	Gafanha da Nazare
+14952	21-9-2018	Almada
+19732	23-1-1935	Marco de Canaveses
+17362	1-5-1930	Alfena
+662	17-10-2007	Seia
+10569	4-6-1957	Silves
+7248	4-3-1974	Setubal
+5916	27-8-1943	Macedo de Cavaleiros
+18633	14-5-1993	Macedo de Cavaleiros
+16043	17-7-1934	Ermesinde
+2878	3-8-1961	Queluz
+15712	23-10-1990	Coimbra
+8672	1-6-1933	Cartaxo
+17957	22-5-1973	Marco de Canaveses
+6244	17-3-1950	Penafiel
+12440	4-5-1989	Almeirim
+13172	11-3-1975	Vale de Cambra
+515	8-9-1961	Meda
+13293	13-11-1939	Castelo Branco
+9381	6-3-1967	Trancoso
+7142	29-5-1994	Agualva-Cacem
+14166	29-10-2011	Camara de Lobos
+19366	11-9-1959	Torres Vedras
+19666	19-11-2015	Machico
+17003	11-11-2008	Sao Salvador de Lordelo
+831	24-12-2020	Sacavem
+12788	18-1-1937	ilhavo
+14764	23-9-2002	Alfena
+11491	24-12-1942	Guarda
+890	10-7-1933	Alverca do Ribatejo
+16943	2-11-2003	Rio Tinto
+615	16-12-1999	Portalegre
+855	7-11-2001	Montemor-o-Novo
+3168	10-5-2002	Esposende
+16778	3-1-2019	Maia
+15179	8-6-2012	Fafe
+7419	25-8-1947	Amadora
+6666	28-4-1991	Cantanhede
+6368	30-2-1983	Santana
+3614	18-11-2021	Camara de Lobos
+360	11-4-2020	Lixa
+14822	16-10-1959	Almada
+1332	25-6-1950	Gouveia
+917	23-5-2003	Sabugal
+12162	13-9-1968	Almeirim
+18361	13-4-1947	Vila Nova de Gaia
+7254	2-9-1944	Costa da Caparica
+18595	2-10-1966	Lagoa
+16906	8-3-1938	Alcacer do Sal
+5373	6-2-1970	Sabugal
+16673	25-4-1985	Amora
+6023	10-10-1963	Aveiro
+17442	1-6-1996	Rio Tinto
+19804	7-6-1960	Oliveira do Hospital
+13594	6-9-1957	Alcacer do Sal
+15880	6-10-1984	Lixa
+2429	23-11-1991	Amora
+17927	7-8-1934	Torres Novas
+11151	13-8-1998	Ponte de Sor
+15564	28-2-2002	Portalegre
+7083	27-3-2005	Costa da Caparica
+1040	18-9-1975	Cartaxo
+104	22-12-2003	Queluz
+13665	26-4-2008	Maia
+3627	21-10-1945	Montemor-o-Novo
+16214	9-9-1957	Coimbra
+4362	23-1-1938	Rebordosa
+13232	12-5-1972	Maia
+13791	24-4-2003	Ovar
+18997	25-12-1938	Beja
+14864	1-4-2012	Odivelas
+8519	5-12-1982	Santo Tirso
+11438	6-9-1952	Esposende
+2791	14-5-1942	ilhavo
+4451	19-9-2011	Alcacer do Sal
+5595	10-7-1943	Barreiro
+2600	21-3-1976	Miranda do Douro / Miranda de l Douro
+352	29-10-2012	evora
+3602	10-1-1955	Matosinhos
+18575	17-12-1999	Valbom
+12832	26-1-1983	Maia
+8784	28-11-1957	Trofa
+2684	21-7-1949	Vila Real
+17537	23-5-1983	Valpacos
+16784	19-4-2009	Portalegre
+13734	22-6-2016	Pombal
+12608	27-10-1956	Valenca
+19259	14-9-1961	Lagoa
+19173	4-3-1945	Santa Maria da Feira
+6022	20-11-1942	Lagoa
+7461	14-7-2006	Sabugal
+7413	15-7-1936	ilhavo
+18578	12-6-1952	Pombal
+18896	12-11-1969	Freamunde
+15648	4-12-1935	Loule
+4645	20-1-1936	Quarteira
+2507	26-6-1955	Povoa de Santa Iria
+16029	15-11-1980	Guimaraes
+331	12-11-1959	Almada
+2523	26-7-1957	Funchal
+1530	4-12-1947	Montijo
+15262	7-11-1984	Albergaria-a-Velha
+19483	16-7-1950	Quarteira
+5951	25-12-2009	Chaves
+221	16-12-1957	Albergaria-a-Velha
+6613	27-3-1948	Loule
+3995	19-9-1992	Mangualde
+10145	15-10-1974	Lagoa
+9791	26-7-1988	Vila Nova de Santo Andre
+15795	11-5-1997	Macedo de Cavaleiros
+14023	21-6-1992	Tarouca
+15961	12-11-1990	Vendas Novas
+12344	20-5-1955	Cantanhede
+8387	24-8-2006	Esmoriz
+8064	25-11-1945	Coimbra
+856	15-5-2000	Santo Tirso
+3655	10-6-2010	Sines
+10980	2-4-1931	Borba
+4583	14-1-1958	Lixa
+14673	4-10-1983	Pombal
+6361	1-4-1956	Santarem
+8768	18-3-2020	Miranda do Douro / Miranda de l Douro
+15191	19-10-1999	Angra do Heroismo
+10389	17-11-1960	Montemor-o-Novo
+17372	12-4-2005	Estarreja
+11238	29-11-1999	Pombal
+9910	15-6-2012	Estremoz
+7447	11-1-2020	Praia da Vitoria
+18351	30-9-1953	Santiago do Cacem
+10718	4-6-1986	Seixal
+399	2-7-2020	Mirandela
+2408	8-12-2015	Macedo de Cavaleiros
+13883	2-5-1958	Agualva-Cacem
+13930	26-2-1960	Aveiro
+12858	5-12-1980	Loures
+7266	16-2-1976	Vale de Cambra
+1365	4-1-1989	Setubal
+7697	8-12-1941	Oliveira do Hospital
+104	2-11-1943	Amarante
+2602	14-3-1957	Esmoriz
+6493	28-7-1977	Trancoso
+9893	1-7-1944	Alverca do Ribatejo
+19374	15-1-1979	Ponta Delgada
+10086	25-9-1990	Vila Nova de Santo Andre
+6999	29-9-1965	Ourem
+4630	5-8-1983	evora
+7565	19-7-1964	Sabugal
+17981	25-10-1974	Montijo
+16280	10-7-1987	Cartaxo
+12238	12-2-1953	Almeirim
+12445	23-4-1951	Lagoa
+4651	10-10-2003	Agualva-Cacem
+5994	10-12-1959	Loures
+10185	18-8-1969	Peniche
+11154	15-12-1986	Faro
+2381	23-12-1983	Vila Franca de Xira
+4074	8-6-1972	Castelo Branco
+8586	26-12-1944	Fatima
+5905	21-6-1939	Alcobaca
+4022	15-11-1946	Peniche
+11660	25-1-1954	Moura
+6023	19-3-1976	Paredes
+6830	14-4-2019	Alverca do Ribatejo
+16259	13-9-1998	Peniche
+13478	19-10-1973	Setubal
+9025	11-9-1983	ilhavo
+13486	15-3-1946	Costa da Caparica
+7750	2-8-1946	Almada
+14094	2-3-2011	Coimbra
+18167	23-8-1949	Alcobaca
+14919	27-1-2021	Ourem
+5254	1-2-2018	Barreiro
+8665	30-1-2014	Vila Nova de Santo Andre
+761	23-5-1968	Lagoa
+8288	20-10-1979	Matosinhos
+9744	3-3-1970	Porto
+3009	20-5-1991	Odivelas
+13513	8-3-1990	Gandra
+18272	27-6-1981	Abrantes
+3025	23-3-1967	Vila Nova de Santo Andre
+12881	7-7-1970	Porto
+13963	28-5-2002	ilhavo
+14608	20-3-1956	Ribeira Grande
+9374	19-11-1947	Tavira
+15435	10-6-1965	Guimaraes
+8368	3-3-2016	Freamunde
+5544	26-5-1930	Miranda do Douro / Miranda de l Douro
+8007	10-6-1989	Horta
+11010	14-6-1983	Rio maior
+17791	19-6-1964	Albergaria-a-Velha
+16051	21-2-1993	Ourem
+2872	4-5-1997	Guarda
+2230	15-11-2021	Horta
+4657	9-6-1962	Moura
+4607	27-4-1986	Caldas da Rainha
+17705	6-6-1931	Mangualde
+19759	1-10-1949	Sacavem
+12290	22-12-1999	Guimaraes
+7181	24-12-1968	Vila Nova de Famalicao
+15354	21-4-1964	Vila Nova de Famalicao
+18088	24-11-2020	Castelo Branco
+14150	28-5-1935	Gouveia
+12588	9-8-1934	Viseu
+13459	7-7-1990	Sines
+14276	20-11-1979	Santiago do Cacem
+2828	17-7-1994	Beja
+19509	18-1-2015	Quarteira
+6380	21-8-2021	Povoa de Varzim
+16682	28-1-1931	Gafanha da Nazare
+2203	17-9-1988	Vila Nova de Santo Andre
+10906	2-4-2008	Mirandela
+3002	12-5-1955	Olhao da Restauracao
+12059	23-8-1997	Abrantes
+14436	7-6-2014	Paredes
+2992	15-12-1942	Sao Joao da Madeira
+7629	19-11-1933	Sines
+15942	13-4-1951	Sao Mamede de Infesta
+7197	9-11-1994	Alcacer do Sal
+7385	13-3-1953	Santiago do Cacem
+8149	1-10-1986	Guimaraes
+1588	18-12-1952	Borba
+4612	18-2-1939	Loule
+18334	28-3-1990	Leiria
+3270	23-2-1980	Pacos de Ferreira
+13445	12-3-1978	Espinho
+14173	14-8-1956	Santa Maria da Feira
+15997	17-11-1993	Portimao
+17997	4-9-1964	Samora Correia
+16729	15-11-1947	Ermesinde
+9127	20-5-1973	Montemor-o-Novo
+19865	13-12-1942	Chaves
+17715	5-11-1955	Guarda
+11555	15-1-1934	Santiago do Cacem
+7448	15-7-2015	Sao Salvador de Lordelo
+6729	10-5-2010	Peniche
+13214	4-1-1996	Vila Real
+148	19-4-1943	Camara de Lobos
+1657	3-9-1990	Tarouca
+5886	22-11-1955	Guarda
+891	8-10-1936	Mealhada
+2966	19-10-1970	Peniche
+1231	7-6-1946	Castelo Branco
+16439	12-2-1938	Marco de Canaveses
+10536	14-11-2005	Praia da Vitoria
+553	22-11-1981	Reguengos de Monsaraz
+8141	19-7-2011	Esposende
+9384	17-10-1983	Matosinhos
+16446	27-3-1942	Rebordosa
+10466	13-4-1981	Alfena
+9349	11-7-2021	Esposende
+19978	26-4-1961	Torres Vedras
+3657	7-4-2015	Mirandela
+5357	8-9-2017	Vale de Cambra
+12097	11-9-2015	Montijo
+16973	12-9-1993	Fatima
+10033	6-6-1950	Anadia
+2447	4-8-1988	ilhavo
+10145	1-10-1967	Horta
+7190	23-1-1953	Fatima
+5574	13-6-1968	Ponte de Sor
+19506	11-8-1953	Gouveia
+17759	5-5-2000	Loures
+16543	30-9-1973	Santa Maria da Feira
+14196	16-3-1942	Machico
+16767	21-11-1996	Camara de Lobos
+14179	21-4-1999	Rio Tinto
+335	13-8-1971	Tomar
+10004	21-6-1935	agueda
+2046	5-3-1978	Pacos de Ferreira
+8205	16-9-1939	Quarteira
+14951	8-12-1987	Alfena
+12569	10-3-1984	Vale de Cambra
+2106	9-4-2011	Vila Nova de Famalicao
+1053	25-9-1975	Lamego
+2676	29-5-1934	Ponta Delgada
+18766	2-7-1985	Almada
+54	19-11-1938	Viseu
+9383	9-9-2015	Lourosa
+12604	12-2-2021	Pombal
+11051	19-12-2021	Cartaxo
+19143	9-10-1964	Chaves
+17826	23-6-1953	Povoa de Varzim
+569	22-10-1945	Montijo
+6789	11-6-1965	Fiaes
+9251	28-11-1976	Santa Comba Dao
+5610	26-10-1966	Guimaraes
+8327	2-7-1996	Quarteira
+3325	17-2-1943	Fundao
+12167	20-6-2020	Pacos de Ferreira
+6325	17-7-1992	Vila Real de Santo Antonio
+15229	19-10-2010	Mealhada
+7154	14-1-1951	Santana
+13044	8-9-2000	Tavira
+8192	3-3-1997	Montemor-o-Novo
+1469	3-3-1953	Torres Vedras
+5039	29-11-1983	Lagoa
+6763	19-6-1938	Vizela
+17974	11-4-1971	Beja
+4626	23-1-2018	Entroncamento
+12936	1-12-2018	Ovar
+3592	1-10-2010	Meda
+1886	21-5-1975	Trofa
+18988	24-5-1989	Freamunde
+123	21-6-1973	Tomar
+8474	2-6-2021	Montijo
+9093	1-2-2012	Valpacos
+15639	13-1-1981	evora
+4098	4-5-1949	Alverca do Ribatejo
+19147	26-2-2014	Ribeira Grande
+14174	15-7-1998	Covilha
+8857	29-12-2006	Braganca
+14063	27-1-1964	Montemor-o-Novo
+2047	17-10-1938	Gafanha da Nazare
+7814	9-1-1932	Oliveira de Azemeis
+3894	11-11-1946	Lixa
+4417	1-10-1933	Estarreja
+19573	4-1-2006	Borba
+11592	18-6-1941	Guarda
+18806	4-10-2007	Santo Tirso
+9043	28-5-1984	Porto
+14735	8-6-2020	Amarante
+6952	29-9-1978	Valongo
+6186	27-11-1996	Vila Baleira
+14189	2-3-1958	Vila Nova de Gaia
+3834	25-12-1935	Valpacos
+18420	23-2-1992	Porto
+17589	8-9-1935	Angra do Heroismo
+14544	24-10-1970	Senhora da Hora
+6711	3-3-1981	Fundao
+4169	18-9-1941	Esposende
+5115	20-10-1960	Santa Cruz
+5299	23-10-1965	Gouveia
+18507	12-8-2016	Sao Mamede de Infesta
+15265	5-11-1988	Valbom
+13794	19-9-1939	Tondela
+14420	20-1-1964	Gandra
+19674	3-3-1998	Trancoso
+10148	11-4-1999	Peso da Regua
+1963	19-5-2000	Esposende
+1998	26-12-1966	Vila Real
+10588	7-9-1992	Quarteira
+775	8-7-1944	Gondomar
+19257	27-10-1945	Albergaria-a-Velha
+10857	13-8-2015	Machico
+16464	29-7-1988	Viseu
+11804	27-4-1963	Guarda
+6862	16-3-1978	Seixal
+15813	14-6-2021	evora
+19566	11-9-1989	Beja
+5396	8-11-1953	Funchal
+7172	2-9-2000	Valenca
+2230	6-1-1943	Caldas da Rainha
+13891	15-3-1943	Sao Joao da Madeira
+17567	2-7-1973	Praia da Vitoria
+17002	29-2-2011	Reguengos de Monsaraz
+3326	12-7-1952	Vila Real
+7824	9-7-1940	Santa Cruz
+18870	30-10-1986	Covilha
+4700	30-8-1989	Setubal
+8335	17-8-1966	Povoa de Santa Iria
+5569	8-3-1989	Praia da Vitoria
+15079	15-11-2005	Castelo Branco
+10618	6-11-1947	Guarda
+3348	24-5-1955	Lamego
+7505	10-7-1999	Vila Nova de Santo Andre
+2525	13-9-1988	Olhao da Restauracao
+6016	19-8-1944	Viana do Castelo
+1036	13-1-1963	Vila do Conde
+14166	17-6-1932	Castelo Branco
+7026	16-7-1960	Figueira da Foz
+4532	4-11-2010	Almeirim
+4649	7-7-1953	Samora Correia
+13289	5-1-1983	Estremoz
+11415	1-11-1989	Lisboa
+14474	18-4-1965	Sao Joao da Madeira
+17951	15-9-2020	Alcobaca
+6734	15-7-1955	Loures
+13720	13-10-1949	Amora
+5820	20-4-2016	Vendas Novas
+16891	11-5-1930	Figueira da Foz
+5263	17-10-1992	Valenca
+17267	30-1-1999	Povoa de Varzim
+1817	8-1-1982	Almada
+1921	10-2-1978	Queluz
+9337	11-2-1979	Moura
+7321	22-4-1974	Vila Baleira
+2517	3-8-2014	Vila Real
+2484	17-12-1946	Leiria
+4502	24-4-1932	Santana
+19000	5-7-1972	Covilha
+18572	29-7-1991	Vila Nova de Foz Coa
+7262	15-12-1954	Fatima
+5276	15-11-1961	Alverca do Ribatejo
+12202	4-3-1963	Anadia
+10160	15-8-1996	Portalegre
+13635	13-9-2000	Vila Nova de Famalicao
+203	25-4-2005	Queluz
+13114	8-1-1988	Pacos de Ferreira
+18824	27-2-1966	Tarouca
+4281	19-6-1943	Mealhada
+4961	28-9-1965	Covilha
+14027	25-1-2017	Covilha
+482	3-1-1962	Portimao
+17725	22-1-1948	Ovar
+730	5-3-1953	Valpacos
+9940	28-10-1997	Canico
+2168	13-6-1978	Alcobaca
+13381	9-8-1960	Amora
+19999	15-4-1962	Vila Baleira
+18919	1-11-1947	Barcelos
+1297	18-1-1935	Almeirim
+11411	21-2-1961	Funchal
+2078	6-11-1968	Lagoa
+18088	17-8-2007	Castelo Branco
+4300	8-10-1961	Braganca
+13948	22-11-1994	Valongo
+9158	5-4-1964	Montijo
+551	12-7-1972	Vila do Conde
+16672	18-4-1993	Almada
+14728	23-8-1945	Almeirim
+18723	11-9-1978	Estarreja
+11616	3-6-1994	Machico
+3865	3-8-1976	Alcobaca
+5937	16-11-1945	Angra do Heroismo
+15760	2-1-2000	Serpa
+10096	28-8-1934	Rio maior
+1017	11-11-1997	Elvas
+6645	1-5-1951	Caldas da Rainha
+1618	22-12-2020	Povoa de Varzim
+10304	3-1-1972	Rio maior
+7137	2-4-1953	Moura
+2535	29-12-1961	Tavira
+16713	19-11-2005	Sao Joao da Madeira
+7574	22-3-2019	Marco de Canaveses
+13443	30-3-1930	Horta
+17560	5-10-2002	Ermesinde
+726	22-1-1932	Estarreja
+12938	11-1-1949	Santana
+12509	2-6-1990	Vila Franca de Xira
+11473	16-10-2018	Caldas da Rainha
+18209	23-2-1940	Oliveira de Azemeis
+5168	28-6-1937	Sao Pedro do Sul
+19164	2-4-1948	Barcelos
+18276	27-6-1938	Loule
+14030	3-4-1960	Loures
+1874	16-10-1969	Loule
+1674	2-5-1943	Almeirim
+1417	30-3-1937	Loures
+15338	3-3-1956	Mangualde
+8923	15-3-1996	Vila Nova de Famalicao
+5144	27-6-1991	Lamego
+1363	7-1-1994	Mealhada
+10604	11-2-2016	Vila Baleira
+6416	23-2-1993	Torres Novas
+7436	23-3-1949	Quarteira
+5851	3-5-2002	Santarem
+943	3-3-1930	Viseu
+4160	21-4-1965	Vale de Cambra
+7330	1-7-1978	Horta
+18758	29-1-2004	Ribeira Grande
+13728	13-12-1950	Vila Nova de Famalicao
+4550	3-11-1969	Alverca do Ribatejo
+2070	18-7-1978	Funchal
+9165	17-8-1993	Montijo
+7750	4-10-1953	Pinhel
+10045	26-11-1932	Castelo Branco
+12094	23-1-1933	Horta
+15178	25-6-2013	Macedo de Cavaleiros
+18050	30-9-1940	Moura
+4601	10-4-1952	Vila Nova de Santo Andre
+18684	28-3-1947	Marco de Canaveses
+11081	16-11-2011	Mangualde
+4956	1-8-1991	Queluz
+11839	6-10-2013	Angra do Heroismo
+8798	29-3-1986	Serpa
+10850	11-1-2002	Peniche
+8483	19-11-1934	Sines
+7622	10-2-1973	Paredes
+8648	17-5-1951	Elvas
+5633	9-6-2010	Gandra
+14072	28-4-1942	Paredes
+17746	12-2-1974	Praia da Vitoria
+6340	14-3-1942	Gondomar
+5092	26-12-1955	Tomar
+14877	2-10-1934	Ovar
+215	5-7-1958	Barreiro
+3949	5-12-1933	Guimaraes
+10175	1-12-1967	Lourosa
+10805	26-3-2012	Ermesinde
+19902	8-8-2005	Lourosa
+14222	16-1-1965	Santarem
+3363	25-6-2008	Machico
+12555	20-8-1948	Estremoz
+12833	1-8-1949	Setubal
+4684	25-1-1946	Alverca do Ribatejo
+17032	19-3-1979	Lagoa
+4013	9-5-1990	Fafe
+2664	24-11-1970	Alverca do Ribatejo
+14736	8-8-1976	Viana do Castelo
+18765	24-11-1930	Viseu
+17853	27-11-1941	Ribeira Grande
+8496	24-5-1974	Almada
+17151	26-10-1948	Espinho
+5598	19-1-2000	Santa Cruz
+12045	6-5-2012	Vila Nova de Santo Andre
+15748	27-2-1968	Moura
+14084	28-11-2015	Mangualde
+1534	7-8-1996	Amora
+6718	14-1-1982	Lagoa
+16826	14-8-1940	Vila do Conde
+7521	14-6-1966	Aveiro
+11521	10-5-1980	Montijo
+9667	17-10-1950	Oliveira de Azemeis
+13697	19-9-1953	evora
+15639	26-4-1971	Peniche
+657	7-6-2009	Barcelos
+12528	29-5-1981	Coimbra
+18403	9-2-1999	Almeirim
+6530	27-6-1992	Amadora
+17442	30-10-1996	Santa Maria da Feira
+18406	4-10-2020	Valongo
+15631	18-5-1937	Lagoa
+7813	14-10-2001	Santiago do Cacem
+16032	28-11-1959	Cantanhede
+15096	30-8-1938	Oliveira de Azemeis
+17330	17-1-1942	Vila Nova de Foz Coa
+3021	17-8-1964	Canico
+19478	4-10-1984	Vila Nova de Famalicao
+9255	3-11-1999	Faro
+2710	4-11-1962	Gouveia
+9200	7-3-2019	Portimao
+10983	14-4-1988	Sao Pedro do Sul
+2187	21-6-1964	Marinha Grande
+16982	16-7-1949	Vila Real de Santo Antonio
+17908	8-8-1986	Fafe
+1843	26-4-1992	Valpacos
+16132	1-11-1968	Ourem
+9480	26-5-1977	Moura
+10877	1-5-1975	Praia da Vitoria
+5446	13-7-1959	Barcelos
+12706	27-10-1965	Camara de Lobos
+15061	9-4-1937	Fundao
+7650	10-10-1938	agueda
+10420	5-9-2012	Tondela
+4824	27-4-2013	Sao Joao da Madeira
+3504	17-9-2004	Miranda do Douro / Miranda de l Douro
+360	6-3-1957	Estremoz
+3583	11-3-1994	Santo Tirso
+19127	3-5-1995	Lagoa
+7492	10-11-2003	Porto
+809	23-10-1962	Lagoa
+15037	10-4-1986	Vila Nova de Foz Coa
+1083	7-12-1934	Lisboa
+3865	25-5-2015	Felgueiras
+706	21-12-1976	Entroncamento
+16078	26-10-1943	Fatima
+2754	15-3-2007	Albergaria-a-Velha
+483	27-6-1934	Reguengos de Monsaraz
+7359	17-3-1968	Chaves
+15066	7-2-1938	Beja
+6794	2-12-2020	Povoa de Varzim
+5865	1-11-1971	Viseu
+17534	8-11-2013	Fundao
+17053	8-8-2021	Lamego
+1055	27-12-2001	Elvas
+2110	28-5-1993	Tondela
+18769	12-7-2000	Mealhada
+8552	6-1-1964	Santarem
+9023	7-8-1973	Povoa de Santa Iria
+14397	4-11-1984	Sines
+10872	4-8-1935	Lourosa
+13260	30-12-1939	ilhavo
+11467	16-3-1934	Figueira da Foz
+5384	25-4-1944	Trofa
+7098	9-3-1993	Serpa
+8126	26-2-1957	Cantanhede
+13908	30-8-1979	Braganca
+3339	14-4-1958	Guimaraes
+6011	21-11-2006	Covilha
+17194	27-7-1982	Portimao
+13073	26-12-1971	Senhora da Hora
+4736	30-9-1995	Estremoz
+17217	8-3-1936	Amarante
+15146	24-4-1989	Rio maior
+9150	24-9-2002	Vizela
+13536	12-10-1989	Lourosa
+18061	7-1-1943	Ponte de Sor
+2089	18-3-1966	Estremoz
+12639	22-2-1953	Gondomar
+16099	7-7-1983	Alfena
+14888	23-3-1984	Vale de Cambra
+18575	17-8-2009	Moura
+8714	16-9-1985	Coimbra
+1966	27-5-1943	Santo Tirso
+9248	9-9-1960	Tomar
+9651	15-1-1932	Agualva-Cacem
+19145	10-7-1930	Povoa de Varzim
+13895	24-1-2013	Faro
+16907	6-3-1956	Sao Pedro do Sul
+5078	15-10-1962	Meda
+11258	28-1-2007	Viana do Castelo
+14140	26-4-1947	Serpa
+4064	10-11-1983	Seia
+12504	26-12-1938	Lamego
+7121	25-10-1950	Alfena
+12573	21-5-1977	Esposende
+179	1-2-1967	Montijo
+6242	9-3-2016	Elvas
+11892	21-9-1986	Covilha
+13816	27-9-1980	Portalegre
+5537	20-2-1954	Santa Comba Dao
+18818	28-8-1963	Torres Novas
+18636	17-11-1968	Anadia
+4013	23-8-1979	Ovar
+11423	5-8-2012	Barreiro
+8338	24-2-2017	Braga
+15887	8-5-2019	Gafanha da Nazare
+16969	30-4-2021	Lamego
+3888	24-7-1977	ilhavo
+205	14-11-1935	Barcelos
+6976	7-12-1982	Vendas Novas
+17644	24-9-1973	evora
+3845	10-9-2012	Aveiro
+4798	8-3-1946	Espinho
+16247	4-12-1933	Gouveia
+6155	20-1-2009	Viana do Castelo
+13433	17-5-1961	Santo Tirso
+309	27-9-1986	Montijo
+3196	21-9-1963	Meda
+17003	18-3-2008	Felgueiras
+18981	7-7-1946	Vale de Cambra
+9154	7-6-1972	Vila Real
+14986	1-4-1966	Camara de Lobos
+4997	9-11-1935	Vila Nova de Foz Coa
+8839	19-11-1997	Lourosa
+6259	16-6-1970	Sines
+17599	24-1-1973	Elvas
+10699	27-9-1940	Mirandela
+9625	1-2-2001	Beja
+3150	28-2-2016	Porto
+17684	27-11-1950	Portimao
+13779	27-6-1930	Tondela
+8794	21-10-1988	Canico
+78	5-4-1932	Macedo de Cavaleiros
+14392	24-1-1999	Almada
+3266	24-2-1950	Albufeira
+9388	2-3-1946	Santa Comba Dao
+12497	5-9-1957	Oliveira do Bairro
+17522	11-2-1980	Albergaria-a-Velha
+17091	22-6-1961	Queluz
+1796	6-8-1993	Odivelas
+18363	25-1-1981	Faro
+17319	21-11-1942	Sabugal
+13243	26-9-2020	Lourosa
+7365	24-12-2002	Ponta Delgada
+15220	21-4-1930	Agualva-Cacem
+12460	19-6-1953	Horta
+844	10-12-1942	Esmoriz
+6081	18-5-1998	Matosinhos
+19810	26-11-1963	Sao Joao da Madeira
+15382	24-4-1974	Viseu
+12851	2-10-1996	Viseu
+14849	7-4-1944	Guimaraes
+6167	4-12-1959	Samora Correia
+6562	8-12-1933	Covilha
+7181	18-11-1950	Rio maior
+14818	23-5-1963	Ribeira Grande
+10574	16-5-1932	Vila Baleira
+2928	15-5-1983	Samora Correia
+8350	4-12-1945	Pombal
+19349	12-5-1949	Silves
+2819	19-8-1940	Leiria
+17239	23-4-1985	Aveiro
+1838	16-11-1979	Valpacos
+122	22-10-1933	Rio Tinto
+11327	2-4-1992	Lamego
+10409	26-5-1999	Santo Tirso
+355	18-8-2003	Tarouca
+169	12-6-1975	Trancoso
+2309	28-10-2011	Alverca do Ribatejo
+10444	22-11-1970	Fatima
+12337	28-10-1952	Gouveia
+4156	3-4-1960	Loures
+13030	8-5-1978	Vila Nova de Gaia
+12987	3-3-1941	Samora Correia
+15124	2-5-1976	Olhao da Restauracao
+17760	18-9-1957	Castelo Branco
+19278	10-2-2017	Valongo
+11469	2-8-2007	Torres Novas
+5372	13-5-1994	Sao Pedro do Sul
+4357	7-10-1942	Setubal
+17651	17-9-1951	Borba
+18159	17-3-2005	Moura
+8531	6-7-1969	Tavira
+18230	5-5-1986	Fatima
+1276	29-10-1932	Trofa
+19390	28-7-2001	Trancoso
+17810	18-4-1984	Macedo de Cavaleiros
+15617	1-12-1940	Miranda do Douro / Miranda de l Douro
+5651	10-4-1946	Albufeira
+4915	5-1-1959	Marinha Grande
+4814	29-5-1950	Vendas Novas
+16583	3-8-1958	Alcobaca
+11230	24-2-2003	Torres Novas
+11752	12-8-2009	Rio Tinto
+10553	10-8-1947	Elvas
+701	1-3-1980	Espinho
+17555	4-8-1957	Seia
+6264	3-7-2018	Funchal
+17588	24-4-1986	Tarouca
+10649	13-1-1954	Lagoa
+1788	26-6-1974	Felgueiras
+17854	2-6-1976	Loures
+14471	25-2-1983	Viana do Castelo
+6616	9-7-1932	Vila Baleira
+13198	17-1-1941	Valongo
+19309	29-12-2010	Fatima
+8222	9-11-1961	Trancoso
+8936	14-6-2000	Porto
+3702	17-7-1965	Olhao da Restauracao
+9405	6-9-1940	Vila Nova de Foz Coa
+19644	17-10-1984	Trancoso
+13349	21-6-1969	Vila Nova de Gaia
+18259	21-6-1983	Fiaes
+19136	22-9-1945	Sabugal
+18197	11-1-1954	Covilha
+15482	12-8-2013	evora
+1607	24-4-1946	Seixal
+654	18-10-1945	Barcelos
+303	19-9-2018	Viseu
+16811	1-8-1960	Abrantes
+2744	19-3-2001	Sao Joao da Madeira
+14340	28-3-2018	Viana do Castelo
+2859	28-12-1980	Fundao
+3126	12-12-1948	Chaves
+1770	19-10-1956	Beja
+11522	11-7-1933	Valongo
+928	20-6-2011	Chaves
+16486	28-7-1981	Torres Vedras
+3838	2-4-1964	Tarouca
+14015	12-1-2017	Angra do Heroismo
+11171	26-6-1976	Santarem
+17245	14-6-2002	Praia da Vitoria
+10895	7-11-1959	Fafe
+18695	14-7-1976	evora
+2681	15-11-1971	Sines
+3701	14-1-1986	Albufeira
+18204	13-9-1974	Povoa de Varzim
+10670	5-3-1965	Valongo
+2987	2-10-1941	Torres Novas
+6227	1-11-2003	Ovar
+165	21-11-1948	Funchal
+1753	27-1-1959	Leiria
+8525	12-2-2005	Valpacos
+1635	21-5-1947	Vila Real de Santo Antonio
+9118	14-12-1994	Silves
+13867	28-3-1989	Silves
+18943	19-1-1999	Peniche
+4610	21-1-1993	Oliveira do Bairro
+18897	5-4-1953	Estarreja
+860	27-2-1946	Gouveia
+6498	28-5-1999	Entroncamento
+7900	7-9-1997	Sao Joao da Madeira
+11923	9-4-1996	Senhora da Hora
+8980	14-4-2009	Valbom
+8333	7-2-1976	Vila Nova de Santo Andre
+18795	14-1-2003	Seixal
+5569	10-9-1991	Barcelos
+10934	3-1-1933	Sacavem
+7654	14-10-1985	Setubal
+14611	5-4-1954	Olhao da Restauracao
+8279	21-5-1998	Sao Pedro do Sul
+260	12-6-1978	Ribeira Grande
+251	30-10-1954	Sacavem
+5122	28-7-1998	Felgueiras
+6813	8-4-1997	Vila Nova de Foz Coa
+8726	11-10-1984	Anadia
+12254	19-3-1998	Pombal
+14645	23-6-1998	Fafe
+9882	14-12-1979	Torres Vedras
+2191	4-4-1942	Aveiro
+18191	26-2-1937	Viana do Castelo
+19501	12-11-1977	Alfena
+8699	16-5-2007	Loures
+11894	6-3-1962	Alcobaca
+6411	8-3-1993	Alcacer do Sal
+12039	30-3-1993	Macedo de Cavaleiros
+14652	19-5-1994	Oliveira de Azemeis
+19347	2-9-1978	Estarreja
+10348	2-6-1955	Fatima
+5463	9-11-2018	Sabugal
+15251	12-8-1982	Estremoz
+1754	14-4-1982	Barreiro
+8001	13-11-1992	Viseu
+4900	11-6-1955	Rebordosa
+3198	29-10-1942	Rio Tinto
+13010	19-1-1942	Loule
+6469	21-8-1949	Machico
+7758	17-8-1938	Meda
+18553	29-9-1960	Vila Nova de Foz Coa
+16412	25-8-1971	Seia
+965	13-2-2007	Felgueiras
+17474	25-9-1994	Rebordosa
+8707	3-12-1998	Peso da Regua
+7203	3-1-2005	Faro
+11785	14-7-1971	Alcacer do Sal
+1372	22-5-2013	Peniche
+13183	7-3-1973	Esposende
+1219	29-5-1999	Lagoa
+2932	23-12-1959	Rio maior
+11226	14-12-2013	Senhora da Hora
+15456	13-6-1944	Sao Salvador de Lordelo
+5058	30-12-2021	Tondela
+1724	8-8-1932	Oliveira do Bairro
+6225	29-9-2013	Almeirim
+17786	17-6-2010	Ponte de Sor
+1678	17-12-2020	Mirandela
+5652	19-1-1990	Amora
+13825	4-11-1974	Lagos
+1291	9-8-2004	Trancoso
+16370	26-5-1969	Amadora
+19282	23-5-1980	Valbom
+19027	17-4-2017	Gandra
+9343	9-1-1941	Marinha Grande
+4067	6-3-1984	Setubal
+12526	6-8-1944	Odivelas
+9147	29-1-1971	Torres Vedras
+14078	18-2-1952	Valenca
+12097	24-11-1994	Guimaraes
+18079	3-2-2005	Fiaes
+17211	7-3-2020	Serpa
+14028	26-11-1973	Horta
+13665	2-12-1945	Vizela
+10581	6-2-1971	Santiago do Cacem
+16749	11-2-1946	Vila Nova de Santo Andre
+9118	15-8-1985	Braganca
+13638	18-2-1988	Lagos
+17355	10-6-2000	Fafe
+2960	30-7-1948	Entroncamento
+7985	24-6-1969	Esposende
+14430	17-4-1931	Valenca
+8434	10-8-2014	Lagoa
+7585	6-7-1948	agueda
+3453	26-6-2000	Cantanhede
+7467	2-9-1956	Elvas
+6733	13-11-1986	Viana do Castelo
+1051	4-10-1994	Aveiro
+15576	18-12-1949	evora
+18223	5-2-2018	Vila Nova de Foz Coa
+2896	15-12-1999	Tarouca
+10357	28-9-1972	Chaves
+14155	1-11-1959	Almada
+14847	4-5-1954	Gondomar
+17592	9-2-1989	Espinho
+5450	15-1-2021	Cartaxo
+5575	27-11-1950	Almeirim
+7405	29-2-2003	Santa Comba Dao
+12031	25-2-1996	Penafiel
+15363	19-4-1939	Mealhada
+18804	27-9-1951	Lamego
+6174	9-4-1962	Sao Pedro do Sul
+2407	17-10-2008	Olhao da Restauracao
+15433	8-1-1958	Estarreja
+18429	30-3-1968	Gafanha da Nazare
+10678	29-9-1959	Braga
+2550	17-9-1995	Sacavem
+287	29-12-1946	Ponta Delgada
+948	24-8-2002	Sao Salvador de Lordelo
+10907	14-8-2010	Braganca
+6297	5-7-2007	Rio Tinto
+15202	16-11-1937	Lagoa
+11234	7-10-1989	Estremoz
+2033	21-2-1937	agueda
+11638	13-8-1957	Barcelos
+10276	28-12-1943	Tavira
+11980	24-1-1974	Torres Vedras
+10369	14-12-2001	Lamego
+12686	27-9-1970	Fiaes
+4460	5-1-1988	Felgueiras
+12153	13-2-1977	Oliveira do Bairro
+129	30-12-1948	Odivelas
+18319	15-3-1990	Silves
+7309	24-7-1934	Porto
+4884	5-10-1985	Povoa de Varzim
+19608	13-3-1974	Ponta Delgada
+17485	30-3-1943	Fafe
+19281	30-4-1981	Moura
+15694	2-4-1984	Peniche
+10382	15-4-2009	Fiaes
+15020	19-9-1995	Albergaria-a-Velha
+2364	23-3-1941	Vale de Cambra
+12646	14-6-1987	Sao Mamede de Infesta
+17644	5-6-2006	Vila Real
+14913	8-9-1973	Guarda
+12086	6-10-1949	Costa da Caparica
+7691	12-12-1931	Espinho
+4338	13-4-1981	Braga
+13014	30-12-1996	Samora Correia
+11321	8-10-1983	Rebordosa
+13089	21-7-1991	Guimaraes
+13471	4-9-1964	Gafanha da Nazare
+12241	9-9-1956	Barcelos
+2064	29-11-2020	Silves
+6396	28-10-1955	Miranda do Douro / Miranda de l Douro
+17202	3-3-1988	Angra do Heroismo
+3488	30-8-1943	Valpacos
+4064	9-2-1982	Braganca
+16245	19-2-1954	Abrantes
+9151	18-2-2015	Vila Nova de Gaia
+8194	17-2-2000	Coimbra
+14392	3-3-1956	Rio Tinto
+17827	16-7-1981	Vila Nova de Santo Andre
+7028	12-8-1931	Santa Cruz
+7686	11-6-1989	Santa Comba Dao
+14845	12-3-2001	Sacavem
+9248	26-5-1987	Covilha
+5646	13-10-1937	Ribeira Grande
+13631	27-8-2008	Cartaxo
+5491	11-5-1964	Vila Nova de Gaia
+16121	2-8-1930	Ponte de Sor
+18618	13-6-2019	Camara de Lobos
+9282	25-4-1932	Vila Real de Santo Antonio
+17799	19-4-1984	Horta
+16533	17-10-1939	Trancoso
+6531	19-3-1933	Porto
+13707	11-3-1938	Amora
+8465	14-1-1941	Espinho
+295	19-3-1931	Vila Real
+16602	28-7-2005	Abrantes
+11142	22-5-2018	Matosinhos
+14834	5-4-1998	Gafanha da Nazare
+5150	4-1-2011	Agualva-Cacem
+5677	12-9-1988	Santa Comba Dao
+9025	4-10-2009	Sao Salvador de Lordelo
+8717	16-1-1962	Vale de Cambra
+7085	19-8-1930	Gondomar
+10912	10-10-1938	Lixa
+1335	10-8-2014	Fatima
+7295	18-9-1981	Oliveira do Hospital
+13222	9-10-2010	Costa da Caparica
+5321	19-6-2015	Oliveira de Azemeis
+5142	20-3-1939	Alcobaca
+9795	30-1-1954	Vila Nova de Famalicao
+4492	7-1-1980	Figueira da Foz
+2691	18-4-1954	Cantanhede
+19061	27-3-1966	Lamego
+15453	23-2-1993	Valongo
+11642	25-2-1985	Funchal
+16909	9-11-1961	Lagoa
+6700	25-11-1949	Santa Cruz
+12385	24-4-2013	Figueira da Foz
+10577	13-4-1968	Albufeira
+12043	13-7-1937	Sao Mamede de Infesta
+11399	19-9-1947	Coimbra
+8040	7-2-1939	Maia
+2170	30-10-1981	Peso da Regua
+3046	12-7-1968	Santa Comba Dao
+1856	15-8-1990	Povoa de Santa Iria
+18308	23-11-1975	Ovar
+483	3-11-1995	Barcelos
+8704	16-3-1967	evora
+13694	8-10-2002	Cantanhede
+15756	22-4-1993	Santiago do Cacem
+13453	4-3-1942	Machico
+15038	16-8-1938	Sacavem
+12804	27-2-1946	Loule
+394	12-8-2015	Torres Novas
+18377	4-5-2019	Guimaraes
+14457	18-2-2000	Freamunde
+10198	14-12-1961	Sabugal
+18612	30-7-2019	Braga
+19570	7-4-2015	Vila Nova de Famalicao
+19734	26-12-1934	Gandra
+2560	15-11-1983	Portalegre
+14557	28-1-1958	Guarda
+19971	7-2-1950	Abrantes
+5332	13-10-1991	Ourem
+2797	10-6-1976	Sao Salvador de Lordelo
+13629	29-7-1947	Covilha
+5883	28-2-2016	Mangualde
+17350	16-2-1968	Gandra
+10624	23-9-2014	Peso da Regua
+18788	22-6-1940	Seia
+12735	26-7-1965	Vendas Novas
+19305	17-2-1957	Gandra
+12060	11-6-2014	Guarda
+18280	18-9-1960	Lisboa
+12017	26-2-2014	Borba
+15258	8-5-1955	Alcacer do Sal
+4607	12-3-1944	Vila Nova de Santo Andre
+13920	4-5-1939	Fatima
+3001	13-1-1983	Amarante
+19282	10-10-1958	Santiago do Cacem
+3828	18-10-2009	Fiaes
+17601	14-2-2001	Ourem
+6284	7-12-1948	Lagos
+18177	17-1-1982	Fatima
+3705	20-6-1935	Braga
+16367	22-6-1934	Santiago do Cacem
+17650	4-9-1955	Alcobaca
+13055	22-2-1976	Costa da Caparica
+9621	20-9-2013	Matosinhos
+606	13-9-1937	Amadora
+15134	10-10-1973	Fiaes
+2704	8-7-1932	Coimbra
+3388	10-3-1934	Vila Franca de Xira
+1432	9-7-1935	Horta
+3843	12-5-2007	Meda
+15912	5-1-1952	Queluz
+870	8-10-1991	Sao Mamede de Infesta
+6895	29-7-1987	Gandra
+1626	25-9-1963	Oliveira do Bairro
+18942	17-2-2010	Seia
+441	16-1-1996	Porto
+15387	2-2-2000	Abrantes
+9295	5-4-2019	Penafiel
+13521	18-4-1990	Portimao
+3736	21-6-1962	Montijo
+9982	17-5-2009	Rio Tinto
+7397	9-11-1990	Marco de Canaveses
+849	1-2-1974	Peniche
+11017	20-2-2007	Fiaes
+3759	25-4-1984	Marco de Canaveses
+2495	29-12-1932	Fundao
+6662	22-11-1935	Castelo Branco
+6940	17-4-1961	Loures
+18569	16-5-1953	Chaves
+16671	11-11-2004	Lagoa
+12603	10-11-2001	Portimao
+18788	17-4-1936	Lixa
+2222	7-8-2006	Viseu
+643	3-3-1949	Almeirim
+358	30-4-1977	Cartaxo
+18208	16-1-1991	Ponta Delgada
+1530	4-2-1933	Torres Novas
+4160	12-5-2008	Figueira da Foz
+2894	13-1-1957	Cartaxo
+15899	10-3-1967	Rebordosa
+14573	27-6-1951	Ribeira Grande
+2694	28-12-2012	Estremoz
+17600	29-4-1981	Marinha Grande
+4242	21-5-1940	Funchal
+8944	14-8-1956	Amarante
+18406	23-12-2002	Tarouca
+13111	1-9-1978	Anadia
+16031	16-10-1951	Santana
+17954	15-12-1937	Viana do Castelo
+8416	25-1-1941	Torres Vedras
+2853	20-10-1956	Miranda do Douro / Miranda de l Douro
+10728	30-9-1976	Lagos
+15341	5-3-2006	Gondomar
+8783	28-8-2012	Silves
+5638	26-9-1988	Oliveira do Bairro
+12020	28-2-2009	Tondela
+5938	14-9-1954	Fundao
+12531	30-7-1988	Ribeira Grande
+18838	2-3-2016	Santo Tirso
+1583	15-5-1980	Meda
+15595	30-6-1936	ilhavo
+8194	1-6-1980	Vila Nova de Santo Andre
+1799	11-9-1972	agueda
+15733	9-5-1964	Leiria
+14861	28-8-2000	Gandra
+10593	6-2-1984	Costa da Caparica
+1594	14-1-1953	Vizela
+13910	21-3-2006	Rio Tinto
+13617	10-2-1988	Braganca
+9168	7-10-1984	Sao Pedro do Sul
+14448	21-11-2005	Praia da Vitoria
+1706	17-12-2007	Viana do Castelo
+5659	19-7-1949	Barreiro
+18850	27-3-2021	Povoa de Varzim
+14643	18-10-1997	Marinha Grande
+18000	7-10-1957	Rebordosa
+3286	14-11-1934	Chaves
+11803	19-10-1956	Felgueiras
+1405	7-6-1945	Guarda
+7178	19-11-1952	Chaves
+5087	21-11-1955	Porto
+5744	11-2-1959	Chaves
+3081	24-5-2007	Lourosa
+2646	24-12-1985	Montijo
+6011	26-12-2017	Fafe
+11626	5-1-1996	Lisboa
+8510	24-6-1934	Castelo Branco
+14584	26-8-1993	Beja
+5401	14-9-1973	Sines
+1714	5-9-1984	Loures
+12166	5-10-1932	Sines
+4936	13-12-1962	Serpa
+11938	12-5-1972	Cartaxo
+9148	22-7-2020	Montijo
+18935	29-9-1934	Serpa
+3863	20-8-2005	Valpacos
+3197	16-6-1999	Queluz
+16891	1-11-1937	Sacavem
+2661	30-3-1932	Valongo
+16633	3-2-1930	Tarouca
+18059	13-12-2015	Vale de Cambra
+18251	23-6-2002	Esposende
+13529	10-12-1950	Santa Comba Dao
+14944	16-11-1997	Loule
+11837	10-4-1989	Seixal
+162	10-5-1958	Lagoa
+7977	22-8-2010	Lagos
+15324	17-6-2004	Gouveia
+15325	17-6-1982	Santa Comba Dao
+12057	11-6-2003	Barcelos
+6479	29-8-1992	Praia da Vitoria
+18645	19-2-2019	Miranda do Douro / Miranda de l Douro
+5002	29-1-1972	Montijo
+7529	30-8-1945	Sao Pedro do Sul
+5845	17-6-2007	Queluz
+12957	14-12-1969	Fatima
+5802	19-2-1974	Gondomar
+17353	3-6-1984	Pacos de Ferreira
+18541	8-11-1977	Cartaxo
+17430	17-9-2021	Canico
+4237	27-12-1945	Lourosa
+974	12-8-1998	Ermesinde
+13978	11-9-2020	Mealhada
+2696	6-2-1949	Santiago do Cacem
+13359	3-11-1994	Seia
+19953	28-10-2009	Meda
+2983	22-6-1931	Trancoso
+13027	29-3-1951	Viseu
+1685	2-11-1940	Sao Mamede de Infesta
+13555	12-5-1941	Caldas da Rainha
+14977	30-2-1985	Angra do Heroismo
+13837	1-3-1949	Vila Nova de Famalicao
+7544	5-1-1995	agueda
+19180	3-1-1933	ilhavo
+11510	14-2-1974	Praia da Vitoria
+5674	5-9-1938	Tomar
+18414	26-12-1944	Penafiel
+10801	28-3-1956	Torres Novas
+8176	18-12-2019	Portalegre
+11439	1-3-2016	Lixa
+17499	1-11-1949	Mangualde
+8687	10-8-2005	Loures
+9597	25-9-2004	Tavira
+1270	24-8-1938	Sines
+14327	9-10-1933	Pombal
+7955	28-3-2011	Lagos
+17635	7-7-1953	Lagoa
+2644	17-11-1991	Oliveira do Hospital
+14365	26-6-1974	Gouveia
+18844	16-11-1943	Vale de Cambra
+11883	16-2-1948	Tondela
+19456	5-5-2007	Loures
+7071	2-3-1957	Amadora
+11378	1-10-1933	Santana
+14658	7-12-2013	Vila Nova de Santo Andre
+1127	1-9-2020	Olhao da Restauracao
+1297	4-4-1954	Ermesinde
+1916	12-5-2015	Fiaes
+11666	24-12-2020	Moura
+6911	18-1-1996	Loule
+8998	18-9-1978	Pombal
+10622	26-8-1938	Caldas da Rainha
+8498	16-11-1992	Ovar
+19240	24-3-2011	Rebordosa
+3432	8-2-1934	Loule
+9578	25-2-1984	Sabugal
+14754	27-11-1932	Pinhel
+18095	4-7-1981	Viseu
+17078	25-6-1954	Vila do Conde
+17542	11-6-2021	Camara de Lobos
+6264	20-10-1951	Meda
+13630	14-11-1970	Lamego
+12600	14-7-2007	Torres Vedras
+10074	15-9-1936	Loule
+4218	7-6-1967	Mirandela
+7467	3-10-1956	Olhao da Restauracao
+1385	11-9-1930	Silves
+14404	17-7-2003	Setubal
+6197	1-1-1943	Oliveira do Hospital
+11168	9-11-1934	Povoa de Santa Iria
+7694	18-12-2018	Horta
+6656	6-1-1949	Marco de Canaveses
+18621	23-12-1939	Seia
+1292	1-6-1996	Alcacer do Sal
+11947	24-4-2015	Leiria
+716	2-3-1963	Braga
+1706	23-7-1954	Figueira da Foz
+12489	4-12-1934	Vila Baleira
+4478	8-3-1976	Fundao
+18345	8-9-1961	Viseu
+13235	23-1-1966	Silves
+9122	7-1-1984	Sines
+13513	29-5-1978	agueda
+9586	23-11-1947	Coimbra
+6677	19-8-1991	Fiaes
+13319	23-12-1977	Peniche
+13384	19-7-1939	Sao Salvador de Lordelo
+1271	15-6-1940	Lagoa
+17786	2-6-1962	Elvas
+5398	5-8-2003	Leiria
+5206	24-11-2019	Alcacer do Sal
+19249	13-2-2008	Lixa
+17663	28-7-1958	Praia da Vitoria
+11254	15-7-1972	Serpa
+2138	22-8-2020	Esposende
+3519	30-3-2018	Torres Vedras
+14694	26-2-1946	Borba
+11882	30-12-1960	Covilha
+4436	27-1-1963	Peniche
+341	28-1-1940	Peso da Regua
+14704	19-4-1938	Vila Nova de Famalicao
+14669	10-7-1962	Lagos
+11320	19-4-1954	Estremoz
+15353	8-10-1969	Fundao
+4683	27-8-2011	Ovar
+5795	22-1-1978	Praia da Vitoria
+4844	7-11-1976	Marinha Grande
+1690	4-7-1988	Quarteira
+16335	19-3-1943	Macedo de Cavaleiros
+6806	27-6-1972	Lamego
+7259	16-10-1940	Lixa
+9585	13-2-1993	Samora Correia
+9562	17-11-1955	Barcelos
+14765	6-11-1946	Machico
+15815	14-6-1947	Mangualde
+16284	4-8-1994	Tavira
+7263	4-11-1932	Valpacos
+3590	16-11-2007	Torres Novas
+18018	29-5-2004	Silves
+14700	4-3-2019	Vila Nova de Foz Coa
+92	26-4-1941	Odivelas
+11383	7-11-1985	Queluz
+5686	1-8-2020	Gondomar
+2068	9-4-1932	Fiaes
+13118	26-7-1939	Sao Joao da Madeira
+14668	9-7-1971	Figueira da Foz
+13942	28-10-1985	Valpacos
+3242	2-11-2002	Vila Baleira
+17950	29-3-1966	Fiaes
+19642	19-7-1976	Alcobaca
+7641	13-9-1930	Estremoz
+14395	18-11-1945	Senhora da Hora
+13247	3-9-1998	Barcelos
+18577	7-1-1974	Sao Pedro do Sul
+13524	26-10-1994	Miranda do Douro / Miranda de l Douro
+1480	8-8-1996	Elvas
+8858	7-12-1963	Ovar
+9431	14-4-1996	Amora
+2055	30-8-1997	Pombal
+8179	27-6-1980	Castelo Branco
+13480	10-1-1954	evora
+8586	21-8-1995	Lagoa
+5379	8-9-2021	Amadora
+17175	6-5-2021	Fiaes
+7294	12-3-1988	Ourem
+3774	7-8-1948	Entroncamento
+3555	29-3-1955	Lamego
+13085	22-5-1935	Sao Joao da Madeira
+5189	19-2-1966	Santa Cruz
+19953	8-2-1963	Queluz
+396	8-8-2004	Albergaria-a-Velha
+8082	28-6-1952	Gondomar
+12925	11-5-1947	Felgueiras
+9033	14-7-2005	Odivelas
+12586	4-9-2011	Valenca
+2267	27-7-1978	Rio Tinto
+17046	8-11-1938	Setubal
+8796	15-5-1964	Oliveira do Hospital
+10202	30-1-1990	Amora
+9457	10-11-1967	Silves
+9277	18-6-1960	Cartaxo
+18411	9-9-1974	Silves
+6035	7-5-1985	Trancoso
+17032	30-10-2019	Portalegre
+18944	9-6-2017	Viseu
+17403	20-7-2008	Santa Comba Dao
+10725	17-4-1980	Fatima
+6927	19-3-1986	Mealhada
+17545	28-1-1934	Ourem
+8171	28-11-1979	Praia da Vitoria
+5885	25-8-1990	Gondomar
+15686	9-1-1977	Torres Novas
+10681	15-11-2020	Cantanhede
+16063	14-5-1951	Vila Baleira
+7406	17-8-1969	Pinhel
+1908	11-5-1956	Sabugal
+4105	1-2-2011	Caldas da Rainha
+2160	12-3-1992	Tarouca
+10650	7-6-1987	Povoa de Santa Iria
+14775	18-12-2011	Alcacer do Sal
+18124	24-2-1973	Alfena
+2810	12-5-1983	Vila Nova de Foz Coa
+12189	13-9-1951	Peniche
+8908	22-3-1939	Valpacos
+19791	2-7-1944	Barreiro
+18489	13-8-1982	Ovar
+6397	8-5-1982	Viseu
+4501	30-6-1948	Mangualde
+13855	15-5-1962	Torres Novas
+7364	3-2-1956	Oliveira do Bairro
+2361	6-8-1981	Vila Nova de Foz Coa
+12763	3-4-1985	Machico
+7121	27-4-1952	Peso da Regua
+15821	18-9-1956	Alcobaca
+18684	29-11-1975	Vale de Cambra
+83	2-5-1935	Alfena
+6683	23-7-1967	Ponta Delgada
+16628	17-6-1999	Costa da Caparica
+1240	28-9-1933	Olhao da Restauracao
+18266	7-12-1974	Porto
+3779	23-4-1998	Mangualde
+8169	20-10-1968	Praia da Vitoria
+1805	19-11-2002	Gouveia
+19497	27-6-1993	Alcobaca
+14948	12-2-1972	Povoa de Varzim
+4097	24-10-1941	Setubal
+5430	17-6-1956	Setubal
+9199	2-2-1950	Pinhel
+17579	14-6-2004	Albergaria-a-Velha
+905	19-10-1997	Esposende
+2662	9-9-1953	Sao Mamede de Infesta
+15169	25-6-1997	Oliveira do Hospital
+5819	26-6-1976	Paredes
+2973	25-8-1964	Lourosa
+5660	1-8-2012	Estarreja
+3568	11-3-2003	Santiago do Cacem
+4795	24-2-1944	Mangualde
+4864	17-11-1975	Fatima
+9771	10-5-1983	Samora Correia
+2516	18-6-2020	Portalegre
+3219	1-1-2015	Oliveira de Azemeis
+8358	3-3-2004	Miranda do Douro / Miranda de l Douro
+2934	20-6-1980	Queluz
+14171	6-9-1985	Ponta Delgada
+956	29-7-1961	Albufeira
+1185	11-2-1930	Silves
+18331	19-1-1951	Gouveia
+2605	2-2-1955	Felgueiras
+15838	13-6-1982	Paredes
+8442	7-9-1934	Canico
+18361	1-5-2003	Loule
+16578	22-2-1979	Viseu
+8053	10-9-1955	Gouveia
+6866	6-11-2008	Rebordosa
+12077	10-2-2006	Mealhada
+14807	15-7-1974	Esposende
+19023	22-10-1981	Figueira da Foz
+10598	16-6-1964	Seia
+12866	1-10-1975	Valongo
+667	2-1-1983	Tavira
+1614	7-4-1945	Funchal
+19988	23-5-1949	Montijo
+14059	17-9-1964	Braga
+13045	4-4-1938	Angra do Heroismo
+13086	6-12-1970	Tarouca
+10743	18-6-1938	Pombal
+4879	8-7-1972	Cartaxo
+11467	2-3-1955	Tavira
+89	17-4-1991	Sines
+19049	27-9-1957	Sabugal
+17085	19-7-1992	Santana
+19120	5-3-1934	Vila Franca de Xira
+9587	9-8-1950	Fafe
+15501	9-8-1959	Caldas da Rainha
+16671	25-9-1939	Abrantes
+4489	10-9-2013	Alfena
+5263	7-11-2013	Seia
+12302	13-2-2020	Agualva-Cacem
+9953	5-6-1975	Caldas da Rainha
+10125	9-2-1943	Castelo Branco
+13498	25-2-1990	Rebordosa
+3991	19-7-1933	Elvas
+14264	10-8-2010	Alcobaca
+84	13-7-1955	Horta
+6796	8-3-2018	Setubal
+18198	11-1-1968	Lourosa
+9818	22-12-1955	Tavira
+19091	18-10-1963	Lamego
+19183	6-5-1940	Santa Cruz
+5800	13-2-1941	Faro
+14793	17-1-2004	Angra do Heroismo
+9977	11-1-1965	Tondela
+15848	24-9-1943	Machico
+3898	12-4-1983	Alfena
+11917	14-2-2006	Leiria
+5892	28-10-2020	Castelo Branco
+4087	1-12-1966	Moura
+651	8-7-1941	Macedo de Cavaleiros
+18523	22-9-2002	Ponta Delgada
+73	30-5-2008	Vila Real
+16463	24-1-1930	Valbom
+14961	12-12-2020	Pombal
+12728	9-5-1955	Sao Salvador de Lordelo
+17727	8-7-1971	Aveiro
+505	19-6-1930	Funchal
+4336	9-2-1997	Mangualde
+5776	18-12-1958	Castelo Branco
+19375	7-12-1989	Santa Cruz
+3891	20-11-1943	Cartaxo
+2971	10-3-2014	Rio Tinto
+13024	9-9-2014	Mangualde
+15854	1-10-1976	Mirandela
+4914	17-11-1956	Sao Mamede de Infesta
+19578	4-5-1986	Penafiel
+2875	9-11-2002	Barreiro
+3791	11-12-1984	Fafe
+8618	5-7-1971	Funchal
+7506	24-1-1992	Lourosa
+2626	30-7-1970	Estremoz
+16171	10-4-1949	Albergaria-a-Velha
+853	18-3-1980	Angra do Heroismo
+6909	16-10-1984	Ribeira Grande
+6273	23-1-1990	Mirandela
+19189	14-6-2018	Santiago do Cacem
+15860	7-11-1985	Sacavem
+146	16-1-2002	Machico
+8379	29-2-1999	Alfena
+3877	16-3-2000	Loule
+5951	6-2-1973	Espinho
+15320	18-9-1946	Barreiro
+15225	5-3-2011	Abrantes
+7138	14-9-1946	Portalegre
+4411	6-6-2019	Torres Vedras
+18053	14-9-1932	Sacavem
+4084	6-2-1933	Lagoa
+9894	3-10-1954	Amarante
+5882	13-1-1958	Braga
+2900	28-1-2011	Vila Baleira
+5397	26-10-1948	Estarreja
+12343	11-1-1942	Sao Joao da Madeira
+7239	1-7-2012	Pombal
+17533	18-7-1987	Anadia
+5934	3-10-1992	Machico
+5955	19-10-1937	Sabugal
+14016	11-7-2014	Santana
+13998	21-7-2013	Mealhada
+13576	3-6-1934	Sines
+8925	22-2-1988	Abrantes
+7872	27-2-1994	ilhavo
+14833	29-12-1951	Montemor-o-Novo
+15415	3-8-1944	Povoa de Varzim
+6250	10-4-1957	Esposende
+765	29-5-1980	Viana do Castelo
+5637	8-9-1944	Montijo
+12496	6-3-2015	Sao Pedro do Sul
+9137	15-5-2000	Aveiro
+5192	11-12-1992	Barreiro
+13994	29-12-1983	Albergaria-a-Velha
+6947	24-5-1970	Moura
+19216	3-10-1946	Vila Nova de Gaia
+2789	23-8-2004	Odivelas
+11980	6-6-2001	Quarteira
+3459	5-11-2019	Lagoa
+5846	15-6-1964	Quarteira
+17468	28-12-2008	Vizela
+8495	26-2-1947	Lagos
+9357	9-5-2014	Fafe
+3528	17-2-1932	Lamego
+16993	23-10-1943	Silves
+11096	28-3-1971	Amora
+7952	30-9-2011	Machico
+9325	13-3-1990	Matosinhos
+8795	22-9-1950	Loule
+14556	18-10-1964	Mangualde
+6436	7-2-1942	Pacos de Ferreira
+10818	12-2-1975	Alcacer do Sal
+16604	3-5-1962	Beja
+17492	3-6-2014	Montijo
+10049	22-11-1996	Lamego
+14067	12-11-1946	Serpa
+17986	15-5-1970	Castelo Branco
+17605	29-10-2016	Queluz
+4825	5-7-2019	Lagoa
+11314	6-7-1992	Albergaria-a-Velha
+8335	25-11-1930	Esposende
+11470	8-5-1947	Lagoa
+18934	3-5-2018	Loures
+4167	6-6-1956	Lagoa
+7523	26-2-2017	Aveiro
+10831	12-9-1952	Vila Nova de Foz Coa
+6186	25-10-1959	Penafiel
+12242	6-10-1996	Viana do Castelo
+17874	26-12-2010	Santa Comba Dao
+6033	3-12-2002	Sao Pedro do Sul
+18077	12-6-1959	Macedo de Cavaleiros
+13716	20-11-1974	Povoa de Santa Iria
+629	27-2-1964	Vila Baleira
+9789	20-3-2015	Tondela
+8138	17-4-1935	Leiria
+19178	25-11-1966	Viana do Castelo
+10809	3-3-1978	Caldas da Rainha
+721	20-11-1967	Machico
+16362	22-12-1991	Sao Joao da Madeira
+13847	3-3-1989	Serpa
+18256	9-12-1967	Elvas
+12894	14-7-1991	Alcacer do Sal
+3440	3-10-2014	Lagoa
+14942	25-11-1966	Viana do Castelo
+14354	28-2-1964	Marinha Grande
+11495	11-3-2008	Chaves
+8663	7-2-2011	Santana
+14406	21-4-1949	Meda
+8785	26-10-1948	Vizela
+11536	7-4-1967	Serpa
+13547	23-10-2021	Vale de Cambra
+3101	21-6-1960	Gandra
+9599	3-5-2006	Angra do Heroismo
+6507	11-12-1952	Paredes
+5012	28-8-1975	Fafe
+5858	11-6-1972	Oliveira de Azemeis
+11373	26-6-1995	Beja
+3010	25-6-1999	Montemor-o-Novo
+17368	12-7-1992	Borba
+2371	21-6-2017	Valenca
+13939	1-5-1938	Elvas
+13126	25-9-2006	Viana do Castelo
+10627	28-1-1941	Tomar
+584	8-5-1952	Pacos de Ferreira
+17527	24-3-1971	Santo Tirso
+14434	20-6-1990	Lixa
+1112	27-4-1962	Santa Cruz
+10412	9-10-1978	Queluz
+17775	19-1-1951	Barcelos
+17490	7-2-1982	Oliveira de Azemeis
+18784	26-1-1956	Reguengos de Monsaraz
+7319	27-8-1983	Setubal
+2661	11-1-1964	Tarouca
+19626	24-4-2012	Torres Vedras
+19363	24-1-1985	Sao Mamede de Infesta
+17225	15-11-1949	Amadora
+9373	21-1-1998	Vila Nova de Santo Andre
+13763	10-2-1967	Tavira
+6427	26-9-1951	Santo Tirso
+19129	17-10-2002	Barcelos
+9691	30-7-1998	Silves
+1304	12-1-1973	ilhavo
+6407	22-5-1994	Esmoriz
+19486	8-4-1976	Lisboa
+145	4-3-1945	Porto
+10954	1-1-1958	Valbom
+17188	7-12-1997	Marco de Canaveses
+13673	13-1-1954	Vila Nova de Famalicao
+14961	22-3-1936	Trancoso
+15220	17-9-2011	Tomar
+19765	11-2-1952	Tarouca
+12005	24-3-1939	Leiria
+12633	6-1-1978	Sacavem
+18887	20-6-1983	Gandra
+17741	22-2-1970	Meda
+354	20-12-2009	Peniche
+3479	8-11-1934	Montijo
+2990	23-4-1953	Amarante
+4147	10-11-1975	Guarda
+4330	26-4-2016	Amadora
+9255	20-11-1942	Machico
+4546	25-6-1945	Oliveira de Azemeis
+6674	26-4-1989	Guimaraes
+19674	6-11-2009	Caldas da Rainha
+861	28-8-2002	Alfena
+8118	17-12-1964	Lamego
+16445	21-10-1952	Entroncamento
+18092	6-9-1948	Santa Comba Dao
+11693	19-3-1975	Abrantes
+16516	12-11-1946	Tomar
+5006	17-6-1956	Montemor-o-Novo
+17314	20-4-1937	Angra do Heroismo
+1745	17-10-2017	Sao Mamede de Infesta
+13247	10-4-2003	Guimaraes
+16071	18-2-2008	Vila Real de Santo Antonio
+1948	28-3-1947	Montemor-o-Novo
+5266	8-8-2010	Lamego
+12064	7-1-1955	Povoa de Varzim
+4902	6-10-1968	Vale de Cambra
+18325	13-2-1947	Miranda do Douro / Miranda de l Douro
+14518	18-6-1980	Povoa de Varzim
+207	19-11-1994	Gondomar
+580	1-8-1996	Sao Pedro do Sul
+662	8-4-1942	Barreiro
+6984	18-2-1946	Abrantes
+1434	11-4-1990	Ribeira Grande
+14333	4-7-2005	Caldas da Rainha
+4036	25-4-1983	Camara de Lobos
+7303	2-10-1940	Trancoso
+11579	13-3-1950	ilhavo
+18026	5-2-1931	Macedo de Cavaleiros
+2516	3-9-2014	agueda
+4318	21-6-1988	Macedo de Cavaleiros
+10868	23-2-2012	Coimbra
+12227	9-3-1937	Coimbra
+11686	13-11-1979	Sabugal
+18918	27-6-1941	Montijo
+10767	13-9-1988	Ponta Delgada
+12796	22-11-2003	Amadora
+834	7-1-2016	Machico
+11426	1-11-1971	Cantanhede
+15049	30-9-1982	Barreiro
+4516	3-11-1975	Portimao
+7335	13-8-1950	Pinhel
+17944	26-9-1959	Funchal
+16809	14-12-1931	Felgueiras
+16456	17-3-1962	Machico
+2877	29-1-1976	Cartaxo
+7110	15-2-1944	Santo Tirso
+17836	14-9-1974	Lourosa
+11121	7-8-2018	Angra do Heroismo
+1533	5-11-1959	Vale de Cambra
+14708	24-10-2017	Miranda do Douro / Miranda de l Douro
+13971	1-7-1933	Coimbra
+8823	29-4-1968	Almeirim
+4525	17-6-1944	Sao Salvador de Lordelo
+16241	20-6-2000	Ourem
+2787	26-2-1985	Canico
+1400	21-12-1972	Lisboa
+16753	12-10-1983	Abrantes
+1381	10-11-1973	Portimao
+53	17-4-1956	Costa da Caparica
+1072	1-5-1973	Gandra
+18521	12-10-1941	Amadora
+12565	14-2-1944	Santana
+11290	3-11-2019	Pinhel
+17423	8-7-2015	Oliveira do Hospital
+9865	4-8-1950	Fiaes
+13799	10-4-2010	Senhora da Hora
+7759	12-3-1976	Vila do Conde
+8958	2-8-1975	Fatima
+11377	6-3-1932	Ourem
+17067	10-5-2011	Miranda do Douro / Miranda de l Douro
+2918	9-9-2020	Vila Franca de Xira
+8466	19-12-1949	Praia da Vitoria
+4842	19-5-1963	Esmoriz
+5575	29-3-1950	Torres Novas
+18083	7-4-1934	Guimaraes
+1998	18-9-1961	Silves
+11842	3-1-1939	Povoa de Varzim
+9652	24-8-1978	Barcelos
+6637	8-10-2000	Setubal
+11766	3-2-1987	Faro
+140	20-6-1995	evora
+15029	24-8-1952	Vizela
+2231	2-10-1967	Miranda do Douro / Miranda de l Douro
+570	20-3-1954	Sao Mamede de Infesta
+18020	2-1-1964	Albergaria-a-Velha
+16939	22-8-1943	Olhao da Restauracao
+9676	2-1-1939	Vila Franca de Xira
+8592	13-12-1941	Vila Real
+16102	8-10-1962	Fafe
+12822	1-9-1972	Vila do Conde
+19504	10-6-2016	Oliveira de Azemeis
+613	24-8-1946	Ponte de Sor
+11415	23-7-2009	Olhao da Restauracao
+10845	15-7-1970	Ponte de Sor
+18056	29-4-1961	Sacavem
+1951	17-8-1941	Entroncamento
+1682	12-3-1945	Samora Correia
+1407	22-8-1997	Beja
+14540	1-5-1985	Ermesinde
+7400	28-7-1963	Castelo Branco
+9988	6-11-1940	Santiago do Cacem
+12170	5-8-1988	Cantanhede
+19443	9-12-1975	Ovar
+18561	13-10-1993	Santa Cruz
+28	15-8-1999	Ourem
+13775	19-1-1971	Ermesinde
+3489	8-6-1945	Torres Novas
+8754	1-9-1993	Tarouca
+19833	25-2-1945	Gouveia
+12183	10-6-1944	Valenca
+1367	15-12-1960	Amora
+18018	15-3-1936	Oliveira de Azemeis
+14562	9-11-1953	Maia
+18618	9-4-2015	Mirandela
+15987	14-11-1970	Elvas
+1171	14-3-1961	Miranda do Douro / Miranda de l Douro
+11418	12-12-2003	Valongo
+16207	28-11-1978	Meda
+5503	8-4-1993	Rio maior
+5197	13-10-1975	Ponta Delgada
+17256	15-4-1961	Ovar
+16330	16-9-2009	Rio maior
+5426	18-12-1939	Oliveira do Hospital
+7059	25-12-2005	Montijo
+5420	28-8-1968	Cantanhede
+11436	25-1-1949	Santiago do Cacem
+13091	7-5-1955	Ermesinde
+14861	19-4-1975	Seixal
+3429	15-3-1978	Cartaxo
+7769	10-9-1964	Santiago do Cacem
+11288	5-1-1938	Esmoriz
+11943	9-12-2016	Vila Baleira
+2769	26-6-1974	Camara de Lobos
+7370	12-4-1956	Praia da Vitoria
+19552	28-9-1993	Mirandela
+16252	3-2-1932	Figueira da Foz
+6542	12-3-2002	Sacavem
+1405	6-2-1981	Lagoa
+12964	18-1-1973	Fiaes
+14999	30-3-1955	Sao Joao da Madeira
+11353	25-3-1940	Vila Real
+5764	19-1-1976	Sao Salvador de Lordelo
+17813	30-5-1969	Barreiro
+3983	22-7-1930	Vila Nova de Gaia
+1791	11-5-1991	Anadia
+4260	19-2-2019	Viseu
+5349	23-11-1952	Funchal
+9869	12-3-1957	Rio Tinto
+4612	12-3-1967	Esmoriz
+9607	21-3-1975	Tavira
+2568	8-10-2004	Rio Tinto
+5120	20-3-2014	Covilha
+232	17-11-2000	Setubal
+9593	14-8-2019	Vila Franca de Xira
+11164	8-5-1943	Viseu
+16875	21-11-1988	Seixal
+4103	6-8-2018	Beja
+10060	19-12-1972	Vila do Conde
+1473	1-10-2003	Pacos de Ferreira
+10993	1-5-1969	Quarteira
+15097	3-12-1985	Matosinhos
+15616	18-9-1988	Agualva-Cacem
+11071	22-12-2009	Oliveira do Bairro
+11588	21-1-1965	Macedo de Cavaleiros
+7159	7-1-1990	Sacavem
+7916	22-1-2016	Lixa
+8109	22-7-1950	Olhao da Restauracao
+6931	3-4-2015	Oliveira do Bairro
+13946	26-2-1979	Povoa de Varzim
+7390	17-4-1949	Fundao
+4228	7-7-1961	Valenca
+7441	7-9-1970	Viana do Castelo
+6225	17-5-1966	Rebordosa
+15893	22-11-2004	Beja
+5514	12-8-1986	Sao Salvador de Lordelo
+4134	13-8-1953	Viseu
+18577	18-9-2011	Oliveira do Bairro
+10277	17-5-1953	Sao Mamede de Infesta
+14833	9-3-1980	Estremoz
+5220	5-9-2005	Amarante
+13835	10-3-2018	Santarem
+1040	12-1-1942	Santa Comba Dao
+14733	12-3-2001	Santo Tirso
+7975	20-9-1972	Mealhada
+1670	3-7-1997	Agualva-Cacem
+2471	21-5-1957	Vila Baleira
+4511	8-12-1947	Borba
+7556	22-10-1967	Rebordosa
+19553	15-11-2011	Coimbra
+13281	6-8-1975	Mirandela
+14128	8-8-2008	Marinha Grande
+900	22-7-2010	Cartaxo
+8008	5-1-1930	Valpacos
+5093	23-2-1936	Vila Nova de Gaia
+3298	13-1-1965	Fiaes
+114	19-6-1998	Guarda
+15830	20-7-1982	Caldas da Rainha
+4462	29-8-1937	Sao Salvador de Lordelo
+9149	20-2-1999	Almada
+3123	18-4-1978	Sao Salvador de Lordelo
+19160	6-1-1966	Tavira
+9160	4-6-1987	Senhora da Hora
+11519	16-7-1991	Povoa de Santa Iria
+8056	15-5-1955	Espinho
+1559	14-1-1949	Torres Novas
+2945	5-11-1937	Entroncamento
+9552	2-1-2006	Olhao da Restauracao
+18864	12-7-1935	Estremoz
+8694	25-10-1940	Agualva-Cacem
+9176	1-6-1942	Tavira
+3318	22-7-1990	Vila Real de Santo Antonio
+16926	22-8-1933	Vila Real de Santo Antonio
+2055	28-4-1954	Marinha Grande
+16522	16-11-2017	Covilha
+3209	12-9-1966	Vila Franca de Xira
+18447	9-2-2007	Canico
+5678	17-3-1979	Ovar
+5167	23-7-1960	Horta
+17600	12-12-1943	Castelo Branco
+10433	25-1-1933	Canico
+13074	20-10-2008	Guimaraes
+16193	13-4-1972	Sacavem
+8417	2-10-2008	Agualva-Cacem
+9203	24-12-1960	Marco de Canaveses
+524	16-1-1977	Rio Tinto
+19675	11-8-2009	Almada
+8625	4-11-1999	Espinho
+9272	17-9-2011	Pacos de Ferreira
+15928	14-3-1937	Vila Nova de Foz Coa
+3234	3-4-1973	Santa Cruz
+10154	8-4-1969	Castelo Branco
+9218	27-3-1983	Santa Maria da Feira
+10681	29-12-1959	Faro
+9184	27-5-1936	Queluz
+1830	10-8-1997	Gondomar
+14690	14-5-1966	Portalegre
+6466	14-10-2020	Oliveira do Bairro
+16083	5-5-1943	Almada
+8490	11-1-2018	evora
+5935	29-9-1963	Estremoz
+3112	20-9-1972	Entroncamento
+17328	8-8-1965	Sao Salvador de Lordelo
+8839	28-8-1962	Estremoz
+2310	28-11-1955	Ermesinde
+3738	26-8-2015	Barreiro
+6800	3-7-1943	Braga
+17899	24-4-2004	Portimao
+16896	16-2-2018	Costa da Caparica
+18237	25-11-2018	Setubal
+7201	10-1-1966	Camara de Lobos
+2680	22-5-1963	Lixa
+8325	26-8-1945	Ponte de Sor
+15683	25-10-1993	Barreiro
+10397	13-3-2006	Cantanhede
+19976	1-2-1963	Serpa
+8946	10-8-1955	Gandra
+14700	11-11-1954	Loures
+8016	9-6-2009	Odivelas
+16642	1-3-1937	Quarteira
+5620	9-2-2010	Gouveia
+249	23-1-2020	Guimaraes
+8597	28-12-1979	Montemor-o-Novo
+3448	4-4-1994	Horta
+230	25-9-1998	Vila Nova de Santo Andre
+847	21-6-2004	Almeirim
+18219	11-2-2017	Sines
+2752	14-5-1998	Torres Novas
+14282	24-2-1935	Canico
+16272	23-1-1988	Albufeira
+16514	27-9-1969	Valbom
+19013	25-3-1989	Ovar
+12643	11-12-2000	Braganca
+1376	21-2-2020	Portalegre
+12185	4-7-1978	Guimaraes
+6662	7-9-1937	Funchal
+12966	23-3-1962	Estremoz
+17626	10-4-1973	Barreiro
+2130	7-6-1949	Braga
+10985	22-10-1947	Loule
+11560	9-2-1996	Santarem
+1828	5-10-1994	Entroncamento
+5687	9-3-2002	Santa Maria da Feira
+18894	8-7-1962	Sao Mamede de Infesta
+2328	20-12-1980	Portimao
+172	11-11-2020	Lagos
+18128	19-1-1956	Setubal
+6342	24-11-1996	Coimbra
+7241	17-4-1934	Trancoso
+6055	24-3-1939	Vila Real de Santo Antonio
+3073	7-2-1951	Sao Joao da Madeira
+19375	2-7-1942	Lixa
+9538	16-12-1964	Alcacer do Sal
+14067	4-3-1963	Peso da Regua
+13731	19-5-1986	Esposende
+14940	4-10-1952	Agualva-Cacem
+13176	17-10-1991	Povoa de Santa Iria
+3785	18-6-1935	Montemor-o-Novo
+19813	23-4-2001	Pacos de Ferreira
+14020	16-11-1992	Povoa de Varzim
+18181	27-7-1957	Loule
+2313	15-10-1940	Alcacer do Sal
+9909	19-5-1975	Tomar
+11676	21-6-2015	Amarante
+6949	11-4-1957	Povoa de Varzim
+2614	6-12-1989	Valongo
+19968	30-3-1973	Fiaes
+16434	12-7-1954	Senhora da Hora
+17897	9-2-2000	Montemor-o-Novo
+15626	29-11-1937	Mangualde
+4440	3-6-2019	Alverca do Ribatejo
+326	25-2-1966	Santo Tirso
+11293	25-10-1999	Vila Nova de Gaia
+19813	15-3-1951	Portimao
+19091	28-9-1940	Odivelas
+1050	29-3-1942	Vila Nova de Foz Coa
+8584	23-10-1964	evora
+3101	11-7-1971	Sines
+6974	22-12-2003	Penafiel
+12159	30-2-1941	Portimao
+14411	19-5-1962	Lisboa
+18508	20-1-1963	Setubal
+2798	11-9-1954	Samora Correia
+7254	6-5-2021	Loule
+1885	2-4-1964	Ponta Delgada
+6920	17-8-1961	Povoa de Santa Iria
+14647	26-10-1934	Seixal
+9846	28-7-1964	Caldas da Rainha
+13961	23-6-1951	Portalegre
+18374	15-6-1944	Setubal
+15819	23-11-1950	Silves
+230	15-7-1988	Praia da Vitoria
+6532	20-1-1980	Vila Nova de Santo Andre
+9136	30-8-2004	Sao Mamede de Infesta
+15155	6-4-2013	Loures
+15948	15-12-1937	Gandra
+19823	20-3-1997	Rio maior
+13688	12-8-1965	Agualva-Cacem
+16106	17-8-1994	Sabugal
+13693	13-7-1952	Entroncamento
+7800	5-4-1980	Estarreja
+10112	4-11-2021	Rio maior
+18526	7-6-2013	Vila Franca de Xira
+15169	13-6-1978	Alverca do Ribatejo
+3327	22-11-1932	Porto
+3316	14-10-1932	Valongo
+17644	2-9-1985	Vale de Cambra
+17895	24-8-2004	Barreiro
+2890	10-9-1944	Santiago do Cacem
+17216	23-12-1946	Meda
+12889	14-3-2013	Praia da Vitoria
+977	2-7-2016	Amarante
+15971	25-10-1994	Tomar
+6431	16-5-1997	Mealhada
+13278	29-7-2018	Chaves
+10056	25-8-1954	Freamunde
+13391	24-12-1995	Amarante
+18354	3-5-1937	Quarteira
+2001	24-11-2010	Braganca
+7356	23-10-1943	Sines
+1233	10-3-1940	Meda
+19912	3-9-1955	Seixal
