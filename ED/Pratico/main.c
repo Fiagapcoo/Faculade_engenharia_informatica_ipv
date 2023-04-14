@@ -1,27 +1,18 @@
 #include "header.h"
 int main() {
 
-    FUNCIONARIO *funcionarios = carregarFuncionarios();
-    CLIENTES *clientes = carregarClientes();
+
 
     LISTA *lista_produtos = carregarProdutos();
-    LISTA *lista_funcionarios = criar_Lista();
-    LISTA *lista_clientes = criar_Lista();
-
-    char *nome_produtos = "produtos.txt";
-    char *nome_funcionarios = "funcionarios.txt";
-    char *nome_clientes = "clientes.txt";
-
-    int n_funcionarios = obter_linhas_ficheiro(nome_funcionarios);
-    int n_clientes = obter_linhas_ficheiro(nome_clientes);
+    LISTA *lista_funcionarios = carregarFuncionarios();
+    LISTA *lista_clientes = carregarClientes();
 
 
-    for (int i = 0; i < n_funcionarios; i++) {
-        adicionar_Lista(lista_funcionarios, &funcionarios[i]);
-    }
-    for (int i = 0; i < n_clientes; i++) {
-        adicionar_Lista(lista_clientes, &clientes[i]);
-    }
+
+
+
+
+
 
     SUPERMERCADO *supermercado = (SUPERMERCADO *) malloc(sizeof(SUPERMERCADO));
     if (supermercado == NULL) {

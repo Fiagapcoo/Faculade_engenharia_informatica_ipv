@@ -66,8 +66,8 @@ typedef struct caixa {
 void menu(SUPERMERCADO *supermercado);
 
 LISTA *carregarProdutos();
-FUNCIONARIO *carregarFuncionarios();
-CLIENTES *carregarClientes();
+LISTA *carregarFuncionarios();
+LISTA *carregarClientes();
 
 int aleatorio(int min, int max);
 

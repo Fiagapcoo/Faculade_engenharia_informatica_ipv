@@ -8,6 +8,26 @@ PRODUTOS *criarProduto(){
     }
     return produto;
 }
+
+CLIENTES *criarCliente(){
+    CLIENTES *cliente = (CLIENTES *) malloc(sizeof(CLIENTES));
+    if (cliente == NULL) {
+        printf("Erro ao alocar memoria.");
+        return NULL;
+    }
+    return cliente;
+}
+
+FUNCIONARIO *criarFuncionarios(){
+    FUNCIONARIO *funcionario = (FUNCIONARIO *) malloc(sizeof(FUNCIONARIO));
+    if (funcionario == NULL) {
+        printf("Erro ao alocar memoria.");
+        return NULL;
+    }
+    return funcionario;
+}
+
+
 LISTA *carregarProdutos() {
     LISTA *lista_produtos = criar_Lista();
 
@@ -79,7 +99,13 @@ LISTA *carregarProdutos() {
 
 }
 
-FUNCIONARIO *carregarFuncionarios(){
+LISTA *carregarFuncionarios(){
+
+    LISTA *lista_funcionarios = criar_Lista();
+
+    if(lista_funcionarios == NULL)
+        return NULL;
+
     FILE *fFuncionario = fopen("funcionarios.txt", "r");
 
     if (fFuncionario == NULL){
@@ -88,12 +114,10 @@ FUNCIONARIO *carregarFuncionarios(){
     }
 
     char linha[MAX_LINHA];
-    int i = 0;
-    FUNCIONARIO *funcionario = NULL;
 
     while (fgets(linha, MAX_LINHA, fFuncionario)){
+        FUNCIONARIO *funcionario = criarFuncionarios();
       //  printf("Linha: %s", linha);
-        funcionario = realloc(funcionario, sizeof(FUNCIONARIO) * (i + 1));
         if (funcionario == NULL) {
             printf("Erro ao alocar memoria.");
             exit(1);
@@ -104,7 +128,7 @@ FUNCIONARIO *carregarFuncionarios(){
             printf("Erro ao ler o codigo do funcionario.");
             exit(1);
         }
-        strcpy(funcionario[i].codigo, token);
+        strcpy(funcionario->codigo, token);
 
         token = strtok(NULL, "\t");
         if (token == NULL) {
@@ -112,20 +136,25 @@ FUNCIONARIO *carregarFuncionarios(){
             exit(1);
         }
 
-        funcionario[i].nome = malloc(strlen(token) + 1);
-        if (funcionario[i].nome == NULL) {
+        funcionario->nome = malloc(strlen(token) + 1);
+        if (funcionario->nome == NULL) {
             printf("Erro ao alocar memoria.");
             exit(1);
         }
-        strcpy(funcionario[i].nome, token);
-        i++;
+        strcpy(funcionario->nome, token);
+        adicionar_Lista(lista_funcionarios, funcionario);
     }
     fclose(fFuncionario);
     printf("Funcionarios carregados com sucesso!\n");
-    return funcionario;
+    return lista_funcionarios;
 }
 
-CLIENTES *carregarClientes(){
+LISTA *carregarClientes(){
+LISTA *lista_clientes = criar_Lista();
+
+    if(lista_clientes == NULL)
+        return NULL;
+
 FILE *fClientes = fopen("clientes.txt", "r");
 
     if (fClientes == NULL){
@@ -135,11 +164,10 @@ FILE *fClientes = fopen("clientes.txt", "r");
 
     char linha[MAX_LINHA];
     int i = 0;
-    CLIENTES *clientes = NULL;
 
     while (fgets(linha, MAX_LINHA, fClientes)){
+        CLIENTES *clientes = criarCliente();
         //printf("Linha: %s", linha);
-        clientes = realloc(clientes, sizeof(CLIENTES) * (i + 1));
         if (clientes == NULL) {
             printf("Erro ao alocar memoria.");
             exit(1);
@@ -150,7 +178,7 @@ FILE *fClientes = fopen("clientes.txt", "r");
             printf("Erro ao ler o codigo do cliente.");
             exit(1);
         }
-        strcpy(clientes[i].codigo, token);
+        strcpy(clientes->codigo, token);
 
         token = strtok(NULL, "\t");
         if (token == NULL) {
@@ -159,17 +187,17 @@ FILE *fClientes = fopen("clientes.txt", "r");
         }
 
 
-        clientes[i].nome = malloc(strlen(token) + 1);
-        if (clientes[i].nome == NULL) {
+        clientes->nome = malloc(strlen(token) + 1);
+        if (clientes->nome == NULL) {
             printf("Erro ao alocar memoria.");
             exit(1);
         }
-        strcpy(clientes[i].nome, token);
-        i++;
+        strcpy(clientes->nome, token);
+        adicionar_Lista(lista_clientes, clientes);
     }
     fclose(fClientes);
     printf("Clientes carregados com sucesso!\n");
-    return clientes;
+    return lista_clientes;
 }
 
 LISTA *criar_Lista(){
