@@ -1,1 +1,42 @@
-a
+<?xml version="1.0" encoding="UTF-8"?>
+<registos>
+	<user0>
+		<cod>3</cod>
+		<nome>EU</nome>
+		<utilizador>johndoe</utilizador>
+		<password>password123</password>
+		<joia>9.990000</joia>
+		<data_registo>1/1/2022</data_registo>
+		<email>johndoe@example.com</email>
+		<pagina_web_pessoal>johndoe.com</pagina_web_pessoal>
+		<telemovel>123456789</telemovel>
+		<numero_acessos>10</numero_acessos>
+		<data_ultimo_acesso>1/2/2022</data_ultimo_acesso>
+	</user0>
+	<user1>
+		<cod>2</cod>
+		<nome>TU</nome>
+		<utilizador>johndoe</utilizador>
+		<password>password123</password>
+		<joia>9.990000</joia>
+		<data_registo>1/1/2022</data_registo>
+		<email>johndoe@example.com</email>
+		<pagina_web_pessoal>johndoe.com</pagina_web_pessoal>
+		<telemovel>123456789</telemovel>
+		<numero_acessos>10</numero_acessos>
+		<data_ultimo_acesso>1/2/2022</data_ultimo_acesso>
+	</user1>
+	<user2>
+		<cod>1</cod>
+		<nome>ELE</nome>
+		<utilizador>johndoe</utilizador>
+		<password>password123</password>
+		<joia>9.990000</joia>
+		<data_registo>1/1/2022</data_registo>
+		<email>johndoe@example.com</email>
+		<pagina_web_pessoal>johndoe.com</pagina_web_pessoal>
+		<telemovel>123456789</telemovel>
+		<numero_acessos>10</numero_acessos>
+		<data_ultimo_acesso>1/2/2022</data_ultimo_acesso>
+	</user2>
+</registos>
