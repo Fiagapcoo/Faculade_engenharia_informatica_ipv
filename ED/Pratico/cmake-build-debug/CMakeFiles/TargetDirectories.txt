@@ -1,0 +1,3 @@
+/home/filipe/CLionProjects/Pratico/cmake-build-debug/CMakeFiles/Pratico.dir
+/home/filipe/CLionProjects/Pratico/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/filipe/CLionProjects/Pratico/cmake-build-debug/CMakeFiles/rebuild_cache.dir
