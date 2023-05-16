@@ -4,12 +4,17 @@
 #ifndef TRABALHOPRATICO_HEADER_H
 #define TRABALHOPRATICO_HEADER_H
 
+
+
 #include <stdio.h>
+#include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
 #define INT_MAX 2147483647
 #define MAX_LINHA 2048
+#define NUM_CLIENTES_ADD 10
+#define NUM_CLIENTES_SUB 5
 
 typedef struct funcionario {
     char codigo[6];
@@ -20,6 +25,8 @@ typedef struct clientes {
     char codigo[6];
     char *nome;
 } CLIENTES;
+
+
 
 typedef struct produtos {
     char codigo[6];
@@ -47,6 +54,7 @@ typedef struct{
     LISTA *lista_produtos;
     LISTA  *lista_clientes;
     LISTA *lista_funcionarios;
+    LISTA *lista_caixas;
 }SUPERMERCADO;
 
 typedef struct compra {
@@ -57,11 +65,14 @@ typedef struct compra {
 
 typedef struct caixa {
     char codigo[6];
-    LISTA *funcionarios;
+    FUNCIONARIO *funcionarios;
     FILA *clientes;
     int aberta; //0 - fechada, 1 - aberta
 } CAIXA;
 
+
+
+void gravar_historico(char *);
 
 void menu(SUPERMERCADO *supermercado);
 
@@ -75,24 +86,23 @@ LISTA *criar_Lista();
 
 void adicionar_Lista(LISTA *lista, void *info);
 
-int obter_linhas_ficheiro(char *nome_ficheiro);
 
 NODE *get_Lista(LISTA *lista, int posicao);
 
-void print_caixa_info(CAIXA *caixa);
+void continuar_simulação(SUPERMERCADO *supermercado);
 
 void simulacao(SUPERMERCADO *supermercado);
 
 void estatisticas(SUPERMERCADO *supermercado);
 
-void mudarCaixa(SUPERMERCADO *supermercado);
+
 
 void inserirCaixas(SUPERMERCADO *supermercado);
 
-void pesquisarPessoaCaixa(CAIXA *caixa);
+void pesquisarPessoaCaixa(LISTA *lista_caixas);
 
 void gravar_dados(SUPERMERCADO *supermercado);
 
-
+void fecharCaixa(LISTA *lista_caixas);
 
 #endif //TRABALHOPRATICO_HEADER_Hx\
