@@ -22,19 +22,20 @@ void menu(SUPERMERCADO *supermercado){
 
         switch (opc){
             case 1:
-                continuar_simulação(supermercado);
+                continuar_simulacao(supermercado);
                 break;
             case 2:
                 estatisticas(supermercado);
                 break;
             case 3:
-                //mudarCaixa(supermercado);
+                mudarCaixa(supermercado);
                 break;
             case 4:
-               // inserirCaixas(supermercado);
+                inserirCaixa(supermercado->lista_caixas, supermercado->lista_funcionarios);
+                ordenarCaixas(supermercado);
                 break;
             case 5:
-                pesquisarPessoaCaixa(supermercado);
+                pesquisarPessoaCaixa(supermercado->lista_caixas);
                 break;
             case 6:
                 fecharCaixa(supermercado->lista_caixas);
@@ -58,6 +59,7 @@ void menu(SUPERMERCADO *supermercado){
 
     } while (opc != 0);
     gravar_dados(supermercado);
+    gravarDadosSimulacao();
     printf("A");
 
     exit(0);
