@@ -1,7 +1,6 @@
 10001	Azeitona Verde Retalhada com Ervas [marcaB] 300 gr	3.00	12.0	3.2
-10002	Croutons Pão Tostado [marcaB] 150 gr	1.69	6.2 2.3
+10002	Croutons Pão Tostado [marcaB] 150 gr	1.69	6.2	2.3
 10003	Azeitona Mista Britada com Ervas Aromáticas [marcaB] 300 gr	2.00	14.6	1.0
-10004	Azeitona Mista Retalhada com Ervas Aromáticas [marcaB] 800 gr	4.00	5.0 0.6
 10005	Mini Picos Azeite [marcaB] 300 gr	1.45	6.7	0.8
 10006	Rosquinhas Sésamo e Azeite [marcaB] 180 gr	0.90	18.3	2.8
 10007	Azeitona Verde Descaroçada [marcaB] 230 gr	2.00	61.6	4.9
@@ -14,7 +13,7 @@
 10014	Azeitona Verde Retalhada com Ervas [marcaB] 800 gr	4.00	4.0	0.6
 10015	Mini Gressinos Integrais [marcaB Equilíbrio] 300 gr	1.09	25.8	1.0
 10016	Croutons Azeite/Alho/Salsa [marcaB] 75 gr	0.64	22.5	12.7
-10017	Azeitona Preta Inteira Oxidada M [marcaB] 250 gr	1.50	6.2 1.1
+10017	Azeitona Preta Inteira Oxidada M [marcaB] 250 gr	1.50	6.2	1.1
 10018	Mini Tostas [marcaB] 350 gr	1.59	59.2	5.6
 10019	Mini Pepinos [marcaB] 290 gr	3.00	20.1	3.0
 10020	Azeitona Verde com Pimento [marcaB] 300 gr	3.00	65.2	5.9

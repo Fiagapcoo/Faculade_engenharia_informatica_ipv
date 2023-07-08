@@ -1,3 +1,7 @@
+//
+// Created by filipe on 29-03-2023.
+//
+
 #include "header.h"
 
 int numClientes = 0;
@@ -5,6 +9,7 @@ int numProdutosVendidos = 0;
 int numFuncionarios = 0;
 float tempoMedioEspera = 0;
 
+//alocar memoria para o produto
 PRODUTOS *criarProduto(){
     PRODUTOS *produto = (PRODUTOS *) malloc(sizeof(PRODUTOS));
     if (produto == NULL) {
@@ -16,7 +21,7 @@ PRODUTOS *criarProduto(){
     return produto;
 }
 
-
+//alocar memoria para o cliente
 CLIENTES *criarCliente(){
     CLIENTES *cliente = (CLIENTES *) malloc(sizeof(CLIENTES));
     if (cliente == NULL) {
@@ -28,7 +33,7 @@ CLIENTES *criarCliente(){
     return cliente;
 }
 
-
+//alocar memoria para o funcionario
 FUNCIONARIO *criarFuncionarios(){
     FUNCIONARIO *funcionario = (FUNCIONARIO *) malloc(sizeof(FUNCIONARIO));
     if (funcionario == NULL) {
@@ -40,7 +45,7 @@ FUNCIONARIO *criarFuncionarios(){
     return funcionario;
 }
 
-
+//carregar todos os produtos do ficheiro para a lista
 LISTA *carregarProdutos() {
     LISTA *lista_produtos = criar_Lista();
 
@@ -126,7 +131,7 @@ LISTA *carregarProdutos() {
 
 }
 
-
+//carregar todos os funcionarios do ficheiro para a lista
 LISTA *carregarFuncionarios(){
 
     LISTA *lista_funcionarios = criar_Lista();
@@ -178,7 +183,7 @@ LISTA *carregarFuncionarios(){
     return lista_funcionarios;
 }
 
-
+//carregar todos os clientes do ficheiro para a lista
 LISTA *carregarClientes(){
     LISTA *lista_clientes = criar_Lista();
 
@@ -233,7 +238,7 @@ LISTA *carregarClientes(){
     return lista_clientes;
 }
 
-
+//criar uma lista generica
 LISTA *criar_Lista(){
     LISTA *lista = (LISTA *)malloc(sizeof(LISTA));
     if(lista == NULL){
@@ -247,7 +252,7 @@ LISTA *criar_Lista(){
     return lista;
 }
 
-
+//adicionar um elemento a fila
 void adicionar_Fila(FILA *fila, void *info) {
     if (!fila || !info) {
         gravar_historico("Erro ao adicionar à lista");
@@ -274,7 +279,7 @@ void adicionar_Fila(FILA *fila, void *info) {
     fila->N_elements++;
 }
 
-
+//adicionar um elemento a lista
 void adicionar_Lista(LISTA *lista, void *info){
     if(!lista || !info) {
         gravar_historico("Erro ao adicionar a lista");
@@ -288,13 +293,13 @@ void adicionar_Lista(LISTA *lista, void *info){
     gravar_historico("Foi adicionado um elemento a lista");
 }
 
-
+//gerar um numero aleatorio
 int aleatorio(int min, int max) {
     gravar_historico("Foi gerado um numero aleatorio");
     return rand() % (max - min + 1) + min;
 }
 
-
+//obter um elemento da lista
 NODE *get_Lista(LISTA *lista, int posicao) {
     if (lista == NULL || lista->head == NULL || posicao < 0 || posicao >= lista->N_elements) {
         gravar_historico("Erro ao obter a lista");
@@ -308,29 +313,39 @@ NODE *get_Lista(LISTA *lista, int posicao) {
     return node;
 }
 
-
-void simulacao(SUPERMERCADO *supermercado) {
+//simular o supermercado
+void simulacao(SUPERMERCADO *supermercado, int iterator) {
+    if(!supermercado) {
+        gravar_historico("Erro ao iniciar a simulacao");
+        return;
+    }
     printf("Simulacao iniciada!\n");
     gravar_historico("Simulacao iniciada");
 
     LISTA *listaProdutos = supermercado->lista_produtos;
     LISTA *listaClientes = supermercado->lista_clientes;
     LISTA *listaFuncionarios = supermercado->lista_funcionarios;
-    
 
-    float total_price = 0, tempo_medio_espera = 0;
+
 
     int num_funcionarios = listaFuncionarios->N_elements;
 
-    //int num_caixas_abertas = aleatorio(1, 10);
-    int num_caixas_abertas = 3;
+    int num_caixas_abertas;
+
+    if(iterator == 0)
+        num_caixas_abertas = aleatorio(1, 10);
+    else
+        num_caixas_abertas = 0;
+
+
+
     printf("Numero de caixas abertas: %d\n", num_caixas_abertas);
 
-    int num_clientes = aleatorio(1, 100);
+    int num_clientes = aleatorio(1, 30);
     numClientes += num_clientes;
 
     printf("Numero de clientes: %d\n", num_clientes);
-
+if(iterator == 0) {
     if (num_clientes > NUM_CLIENTES_ADD) {
         int resposta;
         printf("Deseja abrir mais 1 caixa? (1 - Sim, 0 - Nao)\n");
@@ -343,7 +358,7 @@ void simulacao(SUPERMERCADO *supermercado) {
             num_caixas_abertas++;
         }
     }
-    if (num_clientes < NUM_CLIENTES_SUB){
+    if (num_clientes < NUM_CLIENTES_SUB) {
         int resposta;
         printf("Deseja fechar 1 caixa? (1 - Sim, 0 - Nao)\n");
         scanf("%d", &resposta);
@@ -355,7 +370,7 @@ void simulacao(SUPERMERCADO *supermercado) {
             num_caixas_abertas--;
         }
     }
-
+}
 
     for (int i = 1; i <= num_caixas_abertas; i++) {
         CAIXA *caixa = (CAIXA *) malloc(sizeof(CAIXA));
@@ -384,31 +399,32 @@ void simulacao(SUPERMERCADO *supermercado) {
         CLIENTES *cliente = cliente_node->info;
         char *str_historico = (char *) malloc(sizeof(char) * 300);
         char *nome_cli = (char *)malloc(sizeof(char)*100);
-        usleep(aleatorio(1000, 3000));
+        //usleep(aleatorio(1000, 3000));
         strncpy(nome_cli, cliente->nome, strlen(cliente->nome) - 1);
         sprintf(str_historico, "Cliente: %s entrou no supermercado", nome_cli);
         gravar_historico(str_historico);
 
-        //  int num_produtos = aleatorio(1, listaProdutos->N_elements);
-        int num_produtos = 4;
+        //int num_produtos = aleatorio(1, listaProdutos->N_elements);
+        int num_produtos = 2;//aleatorio(0, listaProdutos->N_elements-1);
         numProdutosVendidos += num_produtos;
 
-
+        int tempoEspera = 0;
 
         LISTA *produtos_a_comprar = criar_Lista();
 
-        //int index = aleatorio(0, listaProdutos->N_elements - 1);
-        int index = 3;
-        for (int j = 0; j < num_produtos; j++){
+        int index;
 
+        for (int j = 0; j < num_produtos; j++){
+            index = aleatorio(0, listaProdutos->N_elements-1);
             NODE *produto_node= (NODE *) get_Lista(listaProdutos, index);
             PRODUTOS *produto = produto_node->info;
             adicionar_Lista(produtos_a_comprar, produto);
-            total_price += produto->preco;
-            tempo_medio_espera += produto->TCaixa;
+
+            tempoEspera += produto->TCaixa;
         }
-        tempo_medio_espera = (tempo_medio_espera / (num_produtos - index));
-        tempoMedioEspera += tempo_medio_espera;
+        cliente->lista_compras = produtos_a_comprar;
+        tempoMedioEspera = (tempoMedioEspera / (num_produtos - index));
+        tempoMedioEspera += tempoMedioEspera/iterator+1;
 
 
 
@@ -431,17 +447,11 @@ void simulacao(SUPERMERCADO *supermercado) {
 
 
         printf("Caixa %s | Cliente %s | Produtos:", selected_caixa->codigo, cliente->nome);
-        NODE *node_produto = produtos_a_comprar->head;
-        while (node_produto != NULL) {
-            PRODUTOS *produto = (PRODUTOS *) node_produto->info;
-            printf(" Nome: %s | preco: (%.2f€) | TCompra: %f, | TCaixa: %f", produto->nome, produto->preco, produto->TCompra, produto->TCaixa);
-            node_produto = node_produto->next;
-        }
+
 
     }
     printf("\n");
-    printf("Preco Total: %.2f\n", total_price);
-    printf("tempo  medio de espera: %.2f\n", tempo_medio_espera);
+
 
 
     printf("Lista de Caixas:\n");
@@ -457,42 +467,173 @@ void simulacao(SUPERMERCADO *supermercado) {
 
 }
 
-
-void continuar_simulacao(SUPERMERCADO *supermercado){
-    printf("Continuação da simulação");
-    LISTA *listaClientes = supermercado->lista_clientes;
+//calcula o lucro total do supermercado
+float calcular_lucro(SUPERMERCADO *supermercado) {
+    if(supermercado == NULL){
+        printf("Supermercado não encontrado");
+        return 0;
+    }
+    float lucroTotal = 0.0;
     LISTA *listaCaixas = supermercado->lista_caixas;
-    LISTA *listaProdutos = supermercado->lista_produtos;
-    LISTA *listaFuncionarios = supermercado->lista_funcionarios;
-
     NODE *nodeCaixa = listaCaixas->head;
 
-    while(nodeCaixa != NULL){
+    while (nodeCaixa != NULL) {
         CAIXA *caixa = nodeCaixa->info;
-        FILA *FilaClientes =caixa->clientes;
+        FILA *FilaClientes = caixa->clientes;
         NODE *noClientesCaixa = FilaClientes->head;
-        while(noClientesCaixa != NULL){
 
+        while (noClientesCaixa != NULL) {
+            CLIENTES *cliente = noClientesCaixa->info;
+            LISTA *listaCompras = cliente->lista_compras;
+            NODE *noListaCompras = listaCompras->head;
+
+            while (noListaCompras != NULL) {
+                PRODUTOS *produto = noListaCompras->info;
+                lucroTotal += produto->preco;
+                noListaCompras = noListaCompras->next;
+            }
+
+            noClientesCaixa = noClientesCaixa->next;
         }
+
+        nodeCaixa = nodeCaixa->next;
     }
- }
 
-
-void estatisticas(SUPERMERCADO *supermercado){
-    printf("Estatisticas");
-
+    return lucroTotal;
 }
 
+//reset das caixas
+void reset_caixas(SUPERMERCADO *supermercado) {
+    if(supermercado == NULL){
+        printf("Supermercado não encontrado");
+        return;
+    }
 
+    LISTA *listaCaixas = supermercado->lista_caixas;
+    NODE *nodeCaixa = listaCaixas->head;
+
+    while (nodeCaixa != NULL) {
+        CAIXA *caixa = nodeCaixa->info;
+        FILA *FilaClientes = caixa->clientes;
+        FilaClientes->head = NULL;
+        FilaClientes->tail = NULL;
+        FilaClientes->N_elements = 0;
+        nodeCaixa = nodeCaixa->next;
+    }
+}
+
+//remover cliente da lista de clientes
+void remover_cliente(CLIENTES *cliente, LISTA *lista_clientes) {
+    if(cliente == NULL || lista_clientes == NULL){
+        printf("Cliente não encontrado");
+        return;
+    }
+    NODE *current = lista_clientes->head;
+    NODE *previous = NULL;
+
+    while (current != NULL) {
+        if (current->info == cliente) {
+            if (previous == NULL) {
+                lista_clientes->head = current->next;
+            } else {
+                previous->next = current->next;
+            }
+
+            if (current == lista_clientes->tail) {
+                lista_clientes->tail = previous;
+            }
+
+            free(current);
+            lista_clientes->N_elements--;
+            break;
+        }
+
+        previous = current;
+        current = current->next;
+
+    }
+}
+
+//continuar a simulação
+void continuar_simulacao(SUPERMERCADO *supermercado) {
+    if(supermercado == NULL){
+        printf("Supermercado não encontrado");
+        return;
+    }
+    char historico_string[100];
+
+    printf("Continuação da simulação\n");
+    int lucroSupermercado = calcular_lucro(supermercado);
+    LISTA *listaCaixas = supermercado->lista_caixas;
+    NODE *nodeCaixa = listaCaixas->head;
+
+    while (nodeCaixa != NULL) {
+        CAIXA *caixa = nodeCaixa->info;
+        FILA *FilaClientes = caixa->clientes;
+        NODE *noClientesCaixa = FilaClientes->head;
+
+        while (noClientesCaixa != NULL) {
+            NODE *nextNode = noClientesCaixa->next;
+
+            CLIENTES *cliente = noClientesCaixa->info;
+            LISTA *listaCompras = cliente->lista_compras;
+            NODE *noListaCompras = listaCompras->head;
+
+            while (noListaCompras != NULL) {
+                PRODUTOS *produto = noListaCompras->info;
+                clock_t start = clock();
+
+                clock_t end = clock();
+
+                double elapsed_time = (double)(end - start) / CLOCKS_PER_SEC;
+                double waiting_time = produto->TCaixa - elapsed_time;
+
+                if (waiting_time > 0) {
+
+                    clock_t remaining_ticks = (clock_t)(waiting_time * CLOCKS_PER_SEC);
+                    clock_t wait_start = clock();
+                    while ((clock() - wait_start) < remaining_ticks);
+                }
+
+                noListaCompras = noListaCompras->next;
+            }
+
+
+            remover_cliente(cliente, supermercado->lista_clientes);
+            printf("Cliente %s saiu do supermercado\n", cliente->nome);
+
+            sprintf(historico_string, "Cliente %s saiu do supermercado\n", cliente->nome);
+            gravar_historico(historico_string);
+
+            noClientesCaixa = nextNode;
+        }
+
+        nodeCaixa = nodeCaixa->next;
+    }
+    reset_caixas(supermercado);
+    printf("Lucro do supermercado: %d\n", lucroSupermercado);
+    sprintf(historico_string, "Lucro do supermercado: %d\n", lucroSupermercado);
+    gravar_historico(historico_string);
+}
+
+//criar no
 NODE * create_node(void *info) {
+    if(info == NULL){
+        printf("Informação não encontrada");
+        return NULL;
+    }
     NODE *node = (NODE *) malloc(sizeof(NODE));
     node->info = info;
     node->next = NULL;
     return node;
 }
 
-
+// enfileirar um elemento an fila
 void enfileirar(FILA *fila, void *info) {
+    if(fila == NULL || info == NULL){
+        printf("Fila ou informação não encontrada");
+        return;
+    }
     NODE *node = create_node(info);
     if (fila->head == NULL) {
         fila->head = node;
@@ -504,8 +645,12 @@ void enfileirar(FILA *fila, void *info) {
     fila->N_elements++;
 }
 
-
+// desenfileirar um elemento da fila
 void *desenfileirar(FILA *fila) {
+    if(fila == NULL){
+        printf("Fila não encontrada");
+        return NULL;
+    }
     if (fila->head == NULL) {
         return NULL; // fila vazia
     }
@@ -520,8 +665,12 @@ void *desenfileirar(FILA *fila) {
     return info;
 }
 
-
+//pesquisar pessoa em todas as caixas
 void pesquisarPessoaCaixa(LISTA *lista_caixas){
+    if(lista_caixas->N_elements == 0 || lista_caixas == NULL){
+        printf("Nao existem caixas abertas\n");
+        return;
+    }
     if(lista_caixas->N_elements == 0 || lista_caixas == NULL){
         printf("Nao existem caixas abertas\n");
         return;
@@ -549,7 +698,12 @@ void pesquisarPessoaCaixa(LISTA *lista_caixas){
     return;
 }
 
+//remover no de lista
 void remove_node(LISTA *lista, NODE *node) {
+    if(lista == NULL || node == NULL){
+        printf("Lista ou nó não encontrados");
+        return;
+    }
     if (lista->head == NULL) {
         // Empty list
         return;
@@ -582,8 +736,12 @@ void remove_node(LISTA *lista, NODE *node) {
     }
 }
 
-
+//fechar uma caixa
 void fecharCaixa(LISTA *lista_caixas) {
+    if(lista_caixas == NULL || lista_caixas->N_elements == 0){
+        printf("Nao existem caixas abertas\n");
+        return;
+    }
     printf("Digite o codigo da caixa que pretende fechar (CX_1): ");
     char codigo[5];
     scanf("%4s", codigo);
@@ -649,8 +807,9 @@ void fecharCaixa(LISTA *lista_caixas) {
 
 }
 
-
+//total de clientes em todas as caixas
 int totalCLientes(LISTA *lista_caixas){
+
     if(!lista_caixas){
         return 0;
     }
@@ -666,12 +825,15 @@ int totalCLientes(LISTA *lista_caixas){
 
 
 int compareCaixas(const void* a, const void* b) {
+    if(!a || !b){
+        return 0;
+    }
     const CAIXA* caixaA = *(const CAIXA**)a;
     const CAIXA* caixaB = *(const CAIXA**)b;
     return caixaA->clientes->N_elements - caixaB->clientes->N_elements;
 }
 
-
+//ordena as caixas por numero de clientes
 void ordenarCaixas(SUPERMERCADO* supermercado) {
     if (!supermercado || !supermercado->lista_caixas) {
         return;
@@ -686,8 +848,8 @@ void ordenarCaixas(SUPERMERCADO* supermercado) {
     CAIXA* caixa = supermercado->lista_caixas->head->info;
     for (NODE* caixaNode = supermercado->lista_caixas->head; caixaNode != NULL; caixaNode = caixaNode->next) {
 
-            caixa = caixaNode->info;
-            caixasArray[index++] = caixa;
+        caixa = caixaNode->info;
+        caixasArray[index++] = caixa;
 
     }
 
@@ -754,8 +916,11 @@ void ordenarCaixas(SUPERMERCADO* supermercado) {
     free(caixasArray);
 }
 
-
+//adiciona caixa na lista das caixas
 void inserirCaixa(LISTA *lista_caixas, LISTA *lista_funcionarios){
+    if(!lista_caixas || !lista_funcionarios){
+        return;
+    }
     CAIXA *caixa_a_inserir = (CAIXA *) malloc(sizeof(CAIXA));
     printf("Qual o codigo da caixa? (ex: CX_1): ");
     scanf("%4s", caixa_a_inserir->codigo);
@@ -802,14 +967,11 @@ void inserirCaixa(LISTA *lista_caixas, LISTA *lista_funcionarios){
 }
 
 
-
-void gravar_dados(SUPERMERCADO *supermercado) {
-
-
-}
-
-
+//gravar historico como se fossem logs
 void gravar_historico(char *data){
+    if(!data){
+        return;
+    }
 
 
 
@@ -833,8 +995,11 @@ void gravar_historico(char *data){
 
 }
 
-
+//procurar cliente na lista de caixas
 CLIENTES* searchClienteInCaixas(SUPERMERCADO* supermercado, const char* clienteCode) {
+    if(!clienteCode){
+        return NULL;
+    }
     if (!supermercado || !supermercado->lista_caixas) {
         return NULL;
     }
@@ -854,10 +1019,10 @@ CLIENTES* searchClienteInCaixas(SUPERMERCADO* supermercado, const char* clienteC
         }
     }
 
-    return NULL; // Cliente not found
+    return NULL;
 }
 
-
+//mudar cliente de caixa
 void mudarCaixa(SUPERMERCADO* supermercado) {
     if (supermercado->lista_caixas->N_elements == 0 || supermercado->lista_caixas == NULL) {
         printf("Nao existem caixas.\n");
@@ -870,14 +1035,14 @@ void mudarCaixa(SUPERMERCADO* supermercado) {
     printf("Qual a caixa para a qual quer mudar o cliente? (ex: CX_1): ");
     scanf("%4s", caixaCode);
 
-    // Search for the cliente with the specified code
+
     CLIENTES* cliente = searchClienteInCaixas(supermercado, clienteCode);
     if (cliente == NULL) {
         printf("Cliente nao encontrado.\n");
         return;
     }
 
-    // Find the source caixa containing the cliente
+
     CAIXA* sourceCaixa = NULL;
     NODE* sourceCaixaNode = NULL;
     for (NODE* caixaNode = supermercado->lista_caixas->head; caixaNode != NULL; caixaNode = caixaNode->next) {
@@ -955,6 +1120,7 @@ void mudarCaixa(SUPERMERCADO* supermercado) {
     printf("Cliente movido com sucesso para a caixa %s.\n", targetCaixa->codigo);
 }
 
+//gravar dados da simulacao
 void gravarDadosSimulacao(){
     FILE *fp = fopen("DadosSimulacao.txt", "w");
     if (fp == NULL){
@@ -966,8 +1132,110 @@ void gravarDadosSimulacao(){
     fprintf(fp, "Numero de produtos vendidos: %d\n", numProdutosVendidos);
     fprintf(fp, "Numero de funcionarios que trabalharam: %d\n", numFuncionarios);
     fprintf(fp, "Tempo medio de espera: %f\n", tempoMedioEspera);
-
     fclose(fp);
 
 }
 
+//numero de clientes
+int num_clientes(SUPERMERCADO *supermercado){
+    if(!supermercado || !supermercado->lista_caixas){
+        return 0;
+    }
+    int num_clientes = 0;
+    for (NODE* caixaNode = supermercado->lista_caixas->head; caixaNode != NULL; caixaNode = caixaNode->next) {
+        CAIXA* caixa = caixaNode->info;
+        FILA* clientes = caixa->clientes;
+        NODE* clienteNode = clientes->head;
+        while (clienteNode != NULL) {
+            num_clientes++;
+            clienteNode = clienteNode->next;
+        }
+    }
+    return num_clientes;
+}
+
+//numero de produtos vendidos
+int produtosVendidos(SUPERMERCADO *supermercado){
+    if(!supermercado || !supermercado->lista_caixas){
+        return 0;
+    }
+    int produtos_vendidos = 0;
+    for (NODE* caixaNode = supermercado->lista_caixas->head; caixaNode != NULL; caixaNode = caixaNode->next) {
+        CAIXA* caixa = caixaNode->info;
+        FILA* clientes = caixa->clientes;
+        NODE* clienteNode = clientes->head;
+        while (clienteNode != NULL) {
+            CLIENTES* cliente = clienteNode->info;
+            produtos_vendidos += cliente->lista_compras->N_elements;
+            clienteNode = clienteNode->next;
+        }
+    }
+    return produtos_vendidos;
+}
+
+//preco total dos produtos vendidos
+float precoTotalProdutosVendidos(SUPERMERCADO *supermercado){
+    if(!supermercado || !supermercado->lista_caixas){
+        return 0;
+    }
+    float preco_total = 0;
+    for (NODE* caixaNode = supermercado->lista_caixas->head; caixaNode != NULL; caixaNode = caixaNode->next) {
+        CAIXA* caixa = caixaNode->info;
+        FILA* clientes = caixa->clientes;
+        NODE* clienteNode = clientes->head;
+        while (clienteNode != NULL) {
+            CLIENTES* cliente = clienteNode->info;
+            for (NODE* produtoNode = cliente->lista_compras->head; produtoNode != NULL; produtoNode = produtoNode->next) {
+                PRODUTOS* produto = produtoNode->info;
+                preco_total += produto->preco;
+            }
+            clienteNode = clienteNode->next;
+        }
+    }
+    return preco_total;
+}
+
+//cliente que tem mais produtos
+CLIENTES *clienteMaisProutos(LISTA *listaCaixas){
+    CLIENTES *clienteMaisProdutos = NULL;
+    int maxProdutos = 0;
+    for (NODE* caixaNode = listaCaixas->head; caixaNode != NULL; caixaNode = caixaNode->next) {
+        CAIXA* caixa = caixaNode->info;
+        FILA* clientes = caixa->clientes;
+        NODE* clienteNode = clientes->head;
+        while (clienteNode != NULL) {
+            CLIENTES* cliente = clienteNode->info;
+            if (cliente->lista_compras->N_elements > maxProdutos) {
+                maxProdutos = cliente->lista_compras->N_elements;
+                clienteMaisProdutos = cliente;
+            }
+            clienteNode = clienteNode->next;
+        }
+    }
+    return clienteMaisProdutos;
+}
+
+//grava estatisticas
+void gravarEstatisticas(SUPERMERCADO *supermercado){
+    if(!supermercado || !supermercado->lista_caixas){
+        return;
+    }
+    ESTATISTICAS *estatisticas = (ESTATISTICAS*)malloc(sizeof(ESTATISTICAS));
+    estatisticas->clientes = num_clientes(supermercado);
+    estatisticas->produtos_vendidos = produtosVendidos(supermercado);
+    estatisticas->preco_totalProdutosVendidos = precoTotalProdutosVendidos(supermercado);
+    estatisticas->cliente_mais_compras = clienteMaisProutos(supermercado->lista_caixas);
+    supermercado->estatisticas = estatisticas;
+}
+
+//mostrar estatisticas
+void estatisticas(ESTATISTICAS *estatisticas){
+    if(!estatisticas){
+        return;
+    }
+    printf("ESTATISTICAS\n");
+    printf("Numero de clientes que entraram no supermercado: %d\n", estatisticas->clientes);
+    printf("Numero de produtos vendidos: %d\n", estatisticas->produtos_vendidos);
+    printf("Receita total: %f\n", estatisticas->preco_totalProdutosVendidos);
+    printf("Cliente com mais produtos: %s\n", estatisticas->cliente_mais_compras->nome);
+}

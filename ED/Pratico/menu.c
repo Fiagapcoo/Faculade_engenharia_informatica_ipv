@@ -5,7 +5,7 @@
 
 void menu(SUPERMERCADO *supermercado){
 
-    simulacao(supermercado);
+
     int opc;
     do{
 
@@ -25,7 +25,7 @@ void menu(SUPERMERCADO *supermercado){
                 continuar_simulacao(supermercado);
                 break;
             case 2:
-                estatisticas(supermercado);
+                estatisticas(supermercado->estatisticas);
                 break;
             case 3:
                 mudarCaixa(supermercado);
@@ -58,9 +58,7 @@ void menu(SUPERMERCADO *supermercado){
 
 
     } while (opc != 0);
-    gravar_dados(supermercado);
     gravarDadosSimulacao();
-    printf("A");
 
     exit(0);
 }

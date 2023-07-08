@@ -16,26 +16,6 @@
 #define NUM_CLIENTES_ADD 10
 #define NUM_CLIENTES_SUB 5
 //estruturas
-typedef struct funcionario {
-    char codigo[6];
-    char *nome;
-} FUNCIONARIO;
-
-
-typedef struct clientes {
-    char codigo[7];
-    char *nome;
-} CLIENTES;
-
-
-typedef struct produtos {
-    char codigo[6];
-    char *nome;
-    float preco; //preco do produto
-    float TCompra;//tempo q o consumidor leva na procura do produto em segundos
-    float TCaixa; //tempo de passar o produto na caixa em segundos
-} PRODUTOS;
-
 
 typedef struct node {
     void *info;
@@ -49,19 +29,43 @@ typedef struct {
     int N_elements;
 } LISTA, FILA;
 
+typedef struct funcionario {
+    char codigo[6];
+    char *nome;
+} FUNCIONARIO;
+
+
+typedef struct clientes {
+    char codigo[7];
+    char *nome;
+    LISTA *lista_compras;
+} CLIENTES;
+
+
+typedef struct produtos {
+    char codigo[6];
+    char *nome;
+    float preco; //preco do produto
+    float TCompra;//tempo q o consumidor leva na procura do produto em segundos
+    float TCaixa; //tempo de passar o produto na caixa em segundos
+} PRODUTOS;
+
+typedef struct estatisticas{
+    int clientes;
+    int produtos_vendidos;
+    float preco_totalProdutosVendidos;
+    CLIENTES *cliente_mais_compras;
+}ESTATISTICAS;
+
+
 
 typedef struct{
     LISTA *lista_produtos;
     LISTA  *lista_clientes;
     LISTA *lista_funcionarios;
     LISTA *lista_caixas;
+    ESTATISTICAS *estatisticas;
 }SUPERMERCADO;
-
-
-typedef struct compra {
-    CLIENTES *cliente;
-    LISTA *produtos;
-} COMPRA;
 
 
 typedef struct caixa {
@@ -70,6 +74,7 @@ typedef struct caixa {
     FILA *clientes;
     int aberta; //0 - fechada, 1 - aberta
 } CAIXA;
+
 
 
 //acaba aqui as estruturas
@@ -111,13 +116,10 @@ int aleatorio(int min, int max);
 NODE *get_Lista(LISTA *lista, int posicao);
 
 
-void simulacao(SUPERMERCADO *supermercado);
+void simulacao(SUPERMERCADO *supermercado, int iterator);
 
 
 void continuar_simulacao(SUPERMERCADO *supermercado);
-
-
-void estatisticas(SUPERMERCADO *supermercado);
 
 
 NODE * create_node(void *info);
@@ -147,9 +149,6 @@ void ordenarCaixas(SUPERMERCADO* supermercado);
 void inserirCaixa(LISTA *lista_caixas, LISTA *lista_funcionarios);
 
 
-void gravar_dados(SUPERMERCADO *supermercado);
-
-
 void gravar_historico(char *data);
 
 
@@ -163,5 +162,20 @@ void menu(SUPERMERCADO *supermercado);
 
 
 void gravarDadosSimulacao();
+
+
+float calcular_lucro(SUPERMERCADO *supermercado);
+
+
+void reset_caixas(SUPERMERCADO *supermercado);
+
+
+void remover_cliente(CLIENTES *cliente, LISTA *lista_clientes);
+
+
+void estatisticas(ESTATISTICAS *estatisticas);
+
+
+void gravarEstatisticas(SUPERMERCADO *supermercado);
 //acaba aqui as funcoes
-#endif //TRABALHOPRATICO_HEADER_Hx\
+#endif

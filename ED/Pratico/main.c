@@ -1,3 +1,6 @@
+//
+// Created by filipe on 29-03-2023.
+//
 #include "header.h"
 int main() {
 
@@ -29,6 +32,16 @@ int main() {
     supermercado->lista_caixas = lista_caixas;
 
 
-    menu(supermercado);
-    return 0;
+    int i;
+    while (1){
+
+        simulacao(supermercado, i);
+
+        if(i % 2 == 0 && i != 0){
+            menu(supermercado);
+        }
+        gravarEstatisticas(supermercado);
+        continuar_simulacao(supermercado);
+        i++;
+    }
 }
