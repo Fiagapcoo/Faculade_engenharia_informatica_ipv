@@ -1,0 +1,49 @@
+SWITCH: Comandos
+
+enable
+
+configure terminal
+
+2º-    
+no ip domain-lookup
+    
+3º-
+enable secret [PASSWORD] - "rci"
+    
+4º-
+line console 0
+password rci
+login
+logging synchronous
+exit
+    
+5º-
+line vty 0 4
+password [PASSWORD] - "rci"
+login
+logging synchronous
+exit
+    
+6º-
+interface vlan 1
+ip address [IP] [MASK] - 172.16.52.189 - 255.255.255.192 - SWA / 172.16.52.221 - 255.255.255.224 - SWB
+no shutdown
+exit
+    
+7º- b
+ip default-gateway [IP] - 172.16.243.190 - SWA / 172.16.243.222 -SWB
+    
+8º-
+service password-encryption 
+    
+9º-
+banner motd #
+
+10º-
+end
+copy running-config startup-config
+
+    
+10º-
+end
+copy running-config startup-config

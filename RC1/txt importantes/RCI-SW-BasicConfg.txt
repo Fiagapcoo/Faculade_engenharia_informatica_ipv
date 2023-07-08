@@ -1,0 +1,61 @@
+!Configurações básicas a aplicar a switches(Ex. Cisco Cat 2960)
+!comentário-linha começada por !
+!O que mudar em função de cada caso/switch:
+!-o hostname
+!-o IP e netmask do SVI
+!-o banner motd
+!Modo de comandos: Privileged EXEC
+!aceder ao Modo:Global configuration
+configure terminal
+!atribuir nome SW1
+hostname SW1
+!evitar pesquisas de DNS 
+no ip domain-lookup
+!proteger o acesso ao modo Privileged EXEC, com password(ex.”rci”)
+enable secret rci
+!configurar o acesso via consola, permitindo o login com password “rci”; 
+!sincronizar as mensagens de sistema;
+!regressar ao modo Global configuration.
+line console 0
+password rci
+login
+logging synchronous
+exit
+!configurar o acesso remoto via vty-conexão de terminal virtual (max. de 5 sessões), 
+!permitindo o login com password “rci”; 
+!sincronizar as mensagens de sistema; 
+!regressar ao modo Global configuration.
+line vty 0 4
+password rci
+login
+logging synchronous
+exit
+!encriptar as passwords de consola e vty
+service password-encryption 
+!definir o banner motd(Message Of The Day)
+banner motd #
+Bem-vindo ao SW1.
+Acesso reservado a pessoas autorizadas!
+#
+
+!configurar e ativar o SVI-Switch Virtual Interface na VLAN 1(Vlan por omissão), 
+!de modo a integrar o equipamento numa rede lógica IP
+!interface vlan 1
+!ip address 192.168.1.253 255.255.255.0
+!no shutdown
+!exit
+!definir o IP para o default gateway, se necessário
+!ip default-gateway 192.168.1.254
+
+!finalizar configurações e regressar ao modo Privileged EXEC
+end
+!salvaguardar configurações no ficheiro de startup, 
+!na NVRAM-Non-Volatible RAM do equipamento.
+copy running-config startup-config
+
+
+
+
+
+
+

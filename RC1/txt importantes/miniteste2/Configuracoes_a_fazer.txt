@@ -1,0 +1,49 @@
+PC5
+-DEFAULT-GATEWAY com IP do Router dado
+-FastEthernet0 Static IPv4/Mask com IP dado
+
+PC1
+-DEFAULT-GATEWAY DHCP
+-FastEthernet0 IPv4 DHCP
+
+PC2
+-DEFAULT-GATEWAY DHCP
+-FastEthernet0 IPv4 DHCP
+
+PC3
+-DEFAULT-GATEWAY DHCP
+-FastEthernet0 IPv4 DHCP
+
+PC4
+-DEFAULT-GATEWAY DHCP
+-FastEthernet0 IPv4 DHCP
+
+Router 1
+-Rotas estáticas:
+--0.0.0.0 0.0.0.0 para a rede EXTERIOR (IP DADO)
+--OUTRA PARA ROUTER 2 Fa0/1
+-FastEthernet1/0 Static IPv4/Mask com IP dado
+-Utilizar Conf_Router.txt com devidas alterações
+
+Router 2
+-Rotas estática 0.0.0.0 0.0.0.0 para o ROUTER 1 Fa0/1
+-Utilizar Conf_Router.txt com devidas alterações
+
+Server-PT
+-DEFAULT-GATEWAY com IP do Router dado
+-DNS 127.0.0.1
+-FastEthernet0 Static IPv4/Mask com IP dado
+
+-Ligar serviço HTTP/HTTPS
+--Adicionar "index.html" com conteúdo dado (Provavelmente "Bem-vindo a rc1.pt", mas confirmar)
+
+-Ligar serviço DNS
+--Fazer adições pedidas (NOME/ENDEREÇO)
+
+-Ligar serviço EMAIL->SMTP/POP3
+--Adicionar Domain->SET e depois adicionar os 2 utilizadores dados
+
+
+------------EMAIL-------------
+Configurar os 2 PC's que vão ter email:
+Desktop->Email->Configure Mail

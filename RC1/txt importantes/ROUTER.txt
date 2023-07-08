@@ -1,0 +1,53 @@
+RT: Comandos
+
+enable
+
+configure terminal
+
+2º-
+no ip domain-lookup
+
+3º-
+enable secret rci
+
+4º-
+line console 0
+password rci
+login
+logging synchronous
+exit
+
+5º-
+line vty 0 4
+password rci
+login
+logging synchronous
+exit
+
+6º- Não vai ser preciso usar:
+
+interface fa 0/0
+ip address [IP] [MASK] - 172.16.243.190 255.255.255.192
+no shutdown
+exit
+
+interface fa 0/1
+ip address [IP] [MASK] - 172.16.243.222 255.255.255.224
+no shutdown
+exit
+
+7º- Não vai ser preciso usar:
+
+ip default-gateway [IP]  
+
+8º-
+service password-encryption 
+
+9º-
+banner motd #
+Bemvindo
+#
+
+10º-
+end
+copy running-config startup-config

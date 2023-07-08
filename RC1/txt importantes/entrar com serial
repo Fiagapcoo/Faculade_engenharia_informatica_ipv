@@ -1,0 +1,13 @@
+Iniciar como Root
+ 
+lsusb
+
+copia ID
+
+modprobe usbserial vendor=0x0557 product=0x2008
+
+dmesg | grep 'ttyUSB'
+
+chmod 777 /dev/ttyUSB0
+
+cu -l /dev/ttyUSB0 -s 9600

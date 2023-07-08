@@ -1,0 +1,44 @@
+!!!!!!!!!!!!!!!!!!!!!ROUTER 2!!!!!!!!!!!!!!!!!!!!!!
+enable
+config ter
+ip dhcp pool NET1
+network <RANGE IP REDE 1> <MASK REDE 1>
+default-router <IP DO ROUTER 1 Fa0/0>
+dns-server <IP DADO NA FICHA>
+exit
+ip dhcp excluded-address <IP ROUTER DA REDE 1>
+ip dhcp excluded-address <IP DO PC 5>
+!
+!
+ip dhcp pool NET2
+network <RANGE IP REDE 2> <MASK REDE 2>
+default-router <IP DO ROUTER 2 Fa0/0>
+dns-server <IP DO SERVER>
+exit
+ip dhcp excluded-address <IP ROUTER 1 DA REDE 2>
+ip dhcp excluded-address <IP ROUTER 2 DA REDE 2>
+
+
+!!!!!!!!!!!!!!!!ROUTER 1!!!!!!!!!!!!!!!!!!!!!!!!!!!
+enable
+conf ter
+!Criar a politica NAT
+interface fastEthernet 0/0
+ip nat inside
+ip helper-address <fa0/0 ROUTER 2>
+exit
+interface fastEthernet 0/1
+ip nat inside
+exit
+interface fastEthernet 1/0
+ip nat outside
+exit
+access-list <Nº DADO NA FICHA> permit <RANGE REDE 1> <WILDCARD>
+access-list <Nº DADO NA FICHA> permit <RANGE REDE 3> <WILDCARD>
+ip nat pool <NOME QUALQUER> 2.81.121.1 2.81.121.254 netmask 255.255.255.0
+ip nat inside source list <Nº DADO> pool <NOME QUALQUER>
+
+ip nat inside source static TCP <IP SERVIDOR> <PORTA LOCAL É "80" PARA HTTP> <IP GLOBAL> <PORT GLOBAL>
+exit
+
+
