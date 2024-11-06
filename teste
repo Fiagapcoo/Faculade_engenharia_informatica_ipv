@@ -1,0 +1,70 @@
+import cv2
+import numpy as np
+from picamera2 import Picamera2
+import time
+
+def setup_camera():
+    # Initialize the camera
+    picam2 = Picamera2()
+    config = picam2.create_preview_configuration()
+    picam2.configure(config)
+    picam2.start()
+    time.sleep(2)  # Give camera time to warm up
+    return picam2
+
+def detect_motion(frame1, frame2, min_area=500):
+    # Find difference between frames
+    diff = cv2.absdiff(frame1, frame2)
+    gray = cv2.cvtColor(diff, cv2.COLOR_BGR2GRAY)
+    blur = cv2.GaussianBlur(gray, (5, 5), 0)
+    _, thresh = cv2.threshold(blur, 20, 255, cv2.THRESH_BINARY)
+    dilated = cv2.dilate(thresh, None, iterations=3)
+    
+    # Find contours
+    contours, _ = cv2.findContours(dilated, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+    
+    for contour in contours:
+        (x, y, w, h) = cv2.boundingRect(contour)
+        if cv2.contourArea(contour) < min_area:
+            continue
+            
+        # Draw rectangle around the moving object
+        cv2.rectangle(frame1, (x, y), (x+w, y+h), (0, 255, 0), 2)
+        
+        # Calculate center point
+        center_x = x + w//2
+        center_y = y + h//2
+        cv2.circle(frame1, (center_x, center_y), 4, (0, 0, 255), -1)
+        
+        # Draw crosshair
+        cv2.line(frame1, (center_x - 10, center_y), (center_x + 10, center_y), (0, 0, 255), 1)
+        cv2.line(frame1, (center_x, center_y - 10), (center_x, center_y + 10), (0, 0, 255), 1)
+        
+    return frame1
+
+def main():
+    picam2 = setup_camera()
+    
+    try:
+        while True:
+            # Capture two frames for motion detection
+            frame1 = picam2.capture_array()
+            time.sleep(0.1)
+            frame2 = picam2.capture_array()
+            
+            # Process frames
+            processed_frame = detect_motion(frame1.copy(), frame2.copy())
+            
+            # Display the result
+            cv2.imshow("Motion Tracking", processed_frame)
+            
+            # Press 'q' to quit
+            if cv2.waitKey(1) & 0xFF == ord('q'):
+                break
+                
+    finally:
+        cv2.destroyAllWindows()
+        picam2.stop()
+
+if __name__ == "__main__":
+    main()
