@@ -1,124 +1,162 @@
 import cv2
 import numpy as np
-import subprocess
+from picamera2 import Picamera2
 import time
-import os
+from threading import Thread
+from collections import deque
+import colorsys
 
-def capture_image_rpicam():
-    """Capture an image using rpicam-still and return as numpy array"""
-    temp_file = '/tmp/motion_capture.jpg'
-    subprocess.run([
-        'rpicam-still',
-        '-n',      # No preview
-        '-t', '1', # Minimal delay
-        '--immediate',
-        '-o', temp_file
-    ])
-    frame = cv2.imread(temp_file)
-    os.remove(temp_file)
-    return frame
-
-def detect_and_track_motion(frame1, frame2, min_area=500):
-    """Enhanced motion detection with object tracking"""
-    # Convert frames to grayscale
-    gray1 = cv2.cvtColor(frame1, cv2.COLOR_BGR2GRAY)
-    gray2 = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY)
-    
-    # Calculate absolute difference and threshold
-    diff = cv2.absdiff(gray1, gray2)
-    blur = cv2.GaussianBlur(diff, (5, 5), 0)
-    _, thresh = cv2.threshold(blur, 20, 255, cv2.THRESH_BINARY)
-    
-    # Dilate to fill in holes
-    kernel = np.ones((5,5), np.uint8)
-    dilated = cv2.dilate(thresh, kernel, iterations=2)
-    
-    # Find contours of moving objects
-    contours, _ = cv2.findContours(dilated, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    
-    # Create a mask for motion
-    motion_mask = np.zeros_like(frame1)
-    
-    detected_objects = []
-    
-    for contour in contours:
-        area = cv2.contourArea(contour)
-        if area < min_area:
-            continue
+class MotionTracker:
+    def __init__(self):
+        # Initialize camera
+        self.picam2 = Picamera2()
+        config = self.picam2.create_preview_configuration(
+            main={"size": (1280, 720)},
+            lores={"size": (640, 480)},
+            display="lores"
+        )
+        self.picam2.configure(config)
+        self.picam2.start()
+        time.sleep(2)  # Warm-up time
+        
+        # Initialize variables
+        self.frame_buffer = deque(maxlen=5)  # Store recent frames
+        self.motion_history = deque(maxlen=30)  # Store motion trails
+        self.running = True
+        self.tracked_objects = []
+        self.frame_count = 0
+        
+        # Cool visual effects parameters
+        self.rainbow_hue = 0
+        self.effects_mode = 0  # Toggle between different visual effects
+        
+    def get_rainbow_color(self):
+        """Generate cycling rainbow colors"""
+        self.rainbow_hue = (self.rainbow_hue + 0.01) % 1.0
+        rgb = colorsys.hsv_to_rgb(self.rainbow_hue, 1.0, 1.0)
+        return tuple(int(x * 255) for x in rgb)
+        
+    def process_frame(self, frame):
+        """Process a single frame for motion detection"""
+        # Convert to grayscale
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        blurred = cv2.GaussianBlur(gray, (21, 21), 0)
+        
+        # Store in buffer
+        self.frame_buffer.append(blurred)
+        
+        if len(self.frame_buffer) < 2:
+            return frame
             
-        # Get bounding rectangle
-        x, y, w, h = cv2.boundingRect(contour)
+        # Calculate difference
+        frame_diff = cv2.absdiff(self.frame_buffer[-1], self.frame_buffer[-2])
+        thresh = cv2.threshold(frame_diff, 25, 255, cv2.THRESH_BINARY)[1]
+        thresh = cv2.dilate(thresh, None, iterations=2)
         
-        # Calculate center point
-        center_x = x + w//2
-        center_y = y + h//2
+        # Find contours
+        contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         
-        # Store object info
-        detected_objects.append({
-            'bbox': (x, y, w, h),
-            'center': (center_x, center_y),
-            'area': area
-        })
-        
-        # Draw red rectangle
-        cv2.rectangle(frame1, (x, y), (x+w, y+h), (0, 0, 255), 2)
-        
-        # Draw target markers
-        marker_size = 20
-        # Horizontal lines
-        cv2.line(frame1, (x+w//2-marker_size, y+h//2), (x+w//2+marker_size, y+h//2), (0, 0, 255), 2)
-        # Vertical lines
-        cv2.line(frame1, (x+w//2, y+h//2-marker_size), (x+w//2, y+h//2+marker_size), (0, 0, 255), 2)
-        
-        # Add object information
-        cv2.putText(frame1, f"Area: {int(area)}", (x, y-10), 
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-        cv2.putText(frame1, f"Position: ({center_x}, {center_y})", (x, y-30), 
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-        
-        # Draw motion trail
-        cv2.drawContours(motion_mask, [contour], -1, (0, 255, 0), -1)
-    
-    # Blend the motion mask with the original frame
-    alpha = 0.3
-    frame_with_motion = cv2.addWeighted(frame1, 1, motion_mask, alpha, 0)
-    
-    # Add frame information
-    cv2.putText(frame_with_motion, f"Objects detected: {len(detected_objects)}", 
-                (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
-    
-    return frame_with_motion, detected_objects
-
-def main():
-    print("Starting enhanced motion detection...")
-    print("Press 'q' to quit")
-    
-    # Initialize background subtractor
-    frame_buffer = []
-    
-    try:
-        while True:
-            # Capture frames
-            frame1 = capture_image_rpicam()
-            time.sleep(0.1)
-            frame2 = capture_image_rpicam()
-            
-            if frame1 is None or frame2 is None:
-                print("Error capturing frames")
+        # Process detected objects
+        detected = []
+        for contour in contours:
+            if cv2.contourArea(contour) < 500:  # Filter small movements
                 continue
-            
-            # Process frames
-            processed_frame, detected_objects = detect_and_track_motion(frame1.copy(), frame2.copy())
-            
-            # Display the result
-            cv2.imshow("Enhanced Motion Tracking", processed_frame)
-            
-            # Press 'q' to quit
-            if cv2.waitKey(1) & 0xFF == ord('q'):
-                break
                 
-    finally:
+            # Get bounding box
+            (x, y, w, h) = cv2.boundingRect(contour)
+            center = (int(x + w/2), int(y + h/2))
+            
+            # Store detection
+            detected.append({
+                'center': center,
+                'box': (x, y, w, h),
+                'contour': contour
+            })
+            
+            # Store motion history
+            self.motion_history.append(center)
+        
+        # Apply visual effects based on mode
+        output = frame.copy()
+        
+        if self.effects_mode == 0:  # Neon effect
+            color = self.get_rainbow_color()
+            # Draw motion trails
+            for i in range(1, len(self.motion_history)):
+                thickness = int((i / len(self.motion_history)) * 12)
+                cv2.line(output, self.motion_history[i-1], self.motion_history[i], color, thickness)
+            
+            # Draw detected objects
+            for obj in detected:
+                x, y, w, h = obj['box']
+                # Neon rectangle
+                cv2.rectangle(output, (x, y), (x+w, y+h), color, 2)
+                # Crosshair
+                center = obj['center']
+                size = 20
+                cv2.line(output, (center[0]-size, center[1]), (center[0]+size, center[1]), color, 2)
+                cv2.line(output, (center[0], center[1]-size), (center[0], center[1]+size), color, 2)
+                
+        elif self.effects_mode == 1:  # Matrix effect
+            output = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+            output = cv2.cvtColor(output, cv2.COLOR_GRAY2BGR)
+            
+            # Add green tint
+            output[:,:,0] = 0  # Blue channel
+            output[:,:,2] = 0  # Red channel
+            output[:,:,1] = output[:,:,1] * 1.5  # Enhance green
+            
+            for obj in detected:
+                x, y, w, h = obj['box']
+                # Digital looking rectangle
+                cv2.rectangle(output, (x, y), (x+w, y+h), (0, 255, 0), 1)
+                # Add some matrix-style text
+                cv2.putText(output, f"TARGET ACQUIRED", (x, y-10),
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 1)
+                
+        else:  # Thermal camera effect
+            output = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+            output = cv2.applyColorMap(output, cv2.COLORMAP_JET)
+            
+            for obj in detected:
+                cv2.drawContours(output, [obj['contour']], -1, (0, 255, 255), 2)
+        
+        # Add frame info
+        cv2.putText(output, f"Objects: {len(detected)}", (10, 30),
+                    cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+        
+        self.frame_count += 1
+        return output
+        
+    def run(self):
+        print("Starting Motion Tracker...")
+        print("Controls:")
+        print("  'q' - Quit")
+        print("  'm' - Change visual effect mode")
+        
+        while self.running:
+            # Capture frame
+            frame = self.picam2.capture_array()
+            
+            # Process frame
+            processed = self.process_frame(frame)
+            
+            # Display result
+            cv2.imshow("Motion Tracker", processed)
+            
+            # Handle keyboard input
+            key = cv2.waitKey(1) & 0xFF
+            if key == ord('q'):
+                self.running = False
+            elif key == ord('m'):
+                self.effects_mode = (self.effects_mode + 1) % 3
+                
+        self.cleanup()
+        
+    def cleanup(self):
+        self.picam2.stop()
         cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    main()
+    tracker = MotionTracker()
+    tracker.run()
