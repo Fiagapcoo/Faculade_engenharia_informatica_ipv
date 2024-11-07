@@ -1,16 +1,31 @@
 import cv2
 import numpy as np
-from picamera2 import Picamera2
+import subprocess
 import time
+import json
+import os
 
-def setup_camera():
-    # Initialize the camera
-    picam2 = Picamera2()
-    config = picam2.create_preview_configuration()
-    picam2.configure(config)
-    picam2.start()
-    time.sleep(2)  # Give camera time to warm up
-    return picam2
+def capture_image_rpicam():
+    """Capture an image using rpicam-still and return as numpy array"""
+    # Create temporary file for the image
+    temp_file = '/tmp/motion_capture.jpg'
+    
+    # Capture image using rpicam-still
+    subprocess.run([
+        'rpicam-still',
+        '-n',  # No preview
+        '-t', '1',  # Very short delay
+        '--immediate',  # Capture immediately
+        '-o', temp_file
+    ])
+    
+    # Read the image with OpenCV
+    frame = cv2.imread(temp_file)
+    
+    # Clean up temporary file
+    os.remove(temp_file)
+    
+    return frame
 
 def detect_motion(frame1, frame2, min_area=500):
     # Find difference between frames
@@ -43,14 +58,19 @@ def detect_motion(frame1, frame2, min_area=500):
     return frame1
 
 def main():
-    picam2 = setup_camera()
+    print("Starting motion detection...")
+    print("Press 'q' to quit")
     
     try:
         while True:
             # Capture two frames for motion detection
-            frame1 = picam2.capture_array()
-            time.sleep(0.1)
-            frame2 = picam2.capture_array()
+            frame1 = capture_image_rpicam()
+            time.sleep(0.1)  # Small delay between captures
+            frame2 = capture_image_rpicam()
+            
+            if frame1 is None or frame2 is None:
+                print("Error capturing frames")
+                continue
             
             # Process frames
             processed_frame = detect_motion(frame1.copy(), frame2.copy())
@@ -64,7 +84,6 @@ def main():
                 
     finally:
         cv2.destroyAllWindows()
-        picam2.stop()
 
 if __name__ == "__main__":
     main()
