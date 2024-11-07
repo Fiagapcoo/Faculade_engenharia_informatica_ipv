@@ -2,70 +2,105 @@ import cv2
 import numpy as np
 import subprocess
 import time
-import json
 import os
 
 def capture_image_rpicam():
     """Capture an image using rpicam-still and return as numpy array"""
-    # Create temporary file for the image
     temp_file = '/tmp/motion_capture.jpg'
-    
-    # Capture image using rpicam-still
     subprocess.run([
         'rpicam-still',
-        '-n',  # No preview
-        '-t', '1',  # Very short delay
-        '--immediate',  # Capture immediately
+        '-n',      # No preview
+        '-t', '1', # Minimal delay
+        '--immediate',
         '-o', temp_file
     ])
-    
-    # Read the image with OpenCV
     frame = cv2.imread(temp_file)
-    
-    # Clean up temporary file
     os.remove(temp_file)
-    
     return frame
 
-def detect_motion(frame1, frame2, min_area=500):
-    # Find difference between frames
-    diff = cv2.absdiff(frame1, frame2)
-    gray = cv2.cvtColor(diff, cv2.COLOR_BGR2GRAY)
-    blur = cv2.GaussianBlur(gray, (5, 5), 0)
-    _, thresh = cv2.threshold(blur, 20, 255, cv2.THRESH_BINARY)
-    dilated = cv2.dilate(thresh, None, iterations=3)
+def detect_and_track_motion(frame1, frame2, min_area=500):
+    """Enhanced motion detection with object tracking"""
+    # Convert frames to grayscale
+    gray1 = cv2.cvtColor(frame1, cv2.COLOR_BGR2GRAY)
+    gray2 = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY)
     
-    # Find contours
-    contours, _ = cv2.findContours(dilated, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+    # Calculate absolute difference and threshold
+    diff = cv2.absdiff(gray1, gray2)
+    blur = cv2.GaussianBlur(diff, (5, 5), 0)
+    _, thresh = cv2.threshold(blur, 20, 255, cv2.THRESH_BINARY)
+    
+    # Dilate to fill in holes
+    kernel = np.ones((5,5), np.uint8)
+    dilated = cv2.dilate(thresh, kernel, iterations=2)
+    
+    # Find contours of moving objects
+    contours, _ = cv2.findContours(dilated, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    
+    # Create a mask for motion
+    motion_mask = np.zeros_like(frame1)
+    
+    detected_objects = []
     
     for contour in contours:
-        (x, y, w, h) = cv2.boundingRect(contour)
-        if cv2.contourArea(contour) < min_area:
+        area = cv2.contourArea(contour)
+        if area < min_area:
             continue
             
-        # Draw rectangle around the moving object
-        cv2.rectangle(frame1, (x, y), (x+w, y+h), (0, 255, 0), 2)
+        # Get bounding rectangle
+        x, y, w, h = cv2.boundingRect(contour)
         
         # Calculate center point
         center_x = x + w//2
         center_y = y + h//2
-        cv2.circle(frame1, (center_x, center_y), 4, (0, 0, 255), -1)
         
-        # Draw crosshair
-        cv2.line(frame1, (center_x - 10, center_y), (center_x + 10, center_y), (0, 0, 255), 1)
-        cv2.line(frame1, (center_x, center_y - 10), (center_x, center_y + 10), (0, 0, 255), 1)
+        # Store object info
+        detected_objects.append({
+            'bbox': (x, y, w, h),
+            'center': (center_x, center_y),
+            'area': area
+        })
         
-    return frame1
+        # Draw red rectangle
+        cv2.rectangle(frame1, (x, y), (x+w, y+h), (0, 0, 255), 2)
+        
+        # Draw target markers
+        marker_size = 20
+        # Horizontal lines
+        cv2.line(frame1, (x+w//2-marker_size, y+h//2), (x+w//2+marker_size, y+h//2), (0, 0, 255), 2)
+        # Vertical lines
+        cv2.line(frame1, (x+w//2, y+h//2-marker_size), (x+w//2, y+h//2+marker_size), (0, 0, 255), 2)
+        
+        # Add object information
+        cv2.putText(frame1, f"Area: {int(area)}", (x, y-10), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+        cv2.putText(frame1, f"Position: ({center_x}, {center_y})", (x, y-30), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+        
+        # Draw motion trail
+        cv2.drawContours(motion_mask, [contour], -1, (0, 255, 0), -1)
+    
+    # Blend the motion mask with the original frame
+    alpha = 0.3
+    frame_with_motion = cv2.addWeighted(frame1, 1, motion_mask, alpha, 0)
+    
+    # Add frame information
+    cv2.putText(frame_with_motion, f"Objects detected: {len(detected_objects)}", 
+                (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+    
+    return frame_with_motion, detected_objects
 
 def main():
-    print("Starting motion detection...")
+    print("Starting enhanced motion detection...")
     print("Press 'q' to quit")
+    
+    # Initialize background subtractor
+    frame_buffer = []
     
     try:
         while True:
-            # Capture two frames for motion detection
+            # Capture frames
             frame1 = capture_image_rpicam()
-            time.sleep(0.1)  # Small delay between captures
+            time.sleep(0.1)
             frame2 = capture_image_rpicam()
             
             if frame1 is None or frame2 is None:
@@ -73,10 +108,10 @@ def main():
                 continue
             
             # Process frames
-            processed_frame = detect_motion(frame1.copy(), frame2.copy())
+            processed_frame, detected_objects = detect_and_track_motion(frame1.copy(), frame2.copy())
             
             # Display the result
-            cv2.imshow("Motion Tracking", processed_frame)
+            cv2.imshow("Enhanced Motion Tracking", processed_frame)
             
             # Press 'q' to quit
             if cv2.waitKey(1) & 0xFF == ord('q'):
